@@ -1,0 +1,95 @@
+# ARM-A output contract — version 1.0
+
+This describes the **actual exported input/output data**, not the private RCC
+implementation or an already-deployed ARM-C API. All cases are non-live:
+function calls are plans; function bodies were not executed.
+
+## Join keys and exact inputs
+
+Join all files on `case_id`; verify `category` as well. There is exactly one row
+per case in each case-level file, with 1,390 identical IDs. `input_cases.jsonl`
+contains the original frozen BFCL question and offered-function contract plus
+its SHA-256. `baseline_requests.jsonl` contains the actual non-secret OpenAI
+Responses request body. Source input and provider request are separate objects:
+serialization changes must not be mistaken for different questions.
+
+## Current ARM-A output: `answers.jsonl`
+
+Each row has exactly:
+
+- `case_id`: frozen case identifier.
+- `category`: one of the seven manifest categories.
+- `baseline_output`: original output extracted by the pinned native-FC handler.
+- `final_output`: actual adopted ARM-A result, or the original preserved baseline.
+- `locked_utc`: timestamp of that row's final lock.
+
+The complete file matches `final_lock.json.final_sha256` and was locked before
+any accuracy scoring. `grades.jsonl` is a **post-lock result**, not an ARM-C
+selection input.
+
+### The output is a union, not always a function-call list
+
+1. A nonempty list is a call plan. Each list item is a single-key object:
+   the function name is the key, and its value is a JSON-encoded argument string.
+2. `[]` is an empty call plan.
+3. A string is preserved model message text with no tool call emitted. Do not
+   invent a function call by interpreting that text. The frozen evaluator
+   projects non-list outputs to `[]` for both baseline and ARM-A scoring.
+   That scoring projection is not itself an independent irrelevance certificate.
+
+Illustrative schema example, **not an additional recorded benchmark case**:
+
+```json
+[{"example_function":"{\"x\":4}"}]
+```
+
+Parse the argument string once as JSON. Function names use the API/checker
+transport spelling. Resolve them through that case's offered-function map;
+do not blindly replace every underscore with a dot.
+
+## Native versus checker representation
+
+`arm_a_output_envelopes.jsonl` adds an explicit integration envelope:
+
+| Field | Meaning |
+|---|---|
+| `native_output` | Actual pre-checker-representation output retained by ARM-A |
+| `final_output` | Actual output committed to the scored final answer sheet |
+| `adopted` | Whether a candidate replaced baseline in this run |
+| `final_source` | `RCC_candidate` or `baseline` |
+| `native_output_format` | `native_call_list` or `text_no_call` |
+| `final_output_format` | `BFCL_checker_call_list` or `text_no_call` |
+| `locked_utc` | Recorded row lock time |
+
+Python arguments are ordinary native JSON values. Some Java/JavaScript final
+argument values are **checker token/literal representations** rather than
+native semantic values. Use `native_output` when designing a semantic
+integration; retain `final_output` for the exact frozen scorer path. Neither
+representation is authorization to execute real tools. Unsupported calls or
+baseline-preserved rows do not imply that their semantics were re-certified.
+
+## Provider-origin output and publication redaction
+
+`baseline_provider_responses.jsonl` contains 1,390 source-faithful redacted
+provider response envelopes. Visible `function_call` and `message` items are
+unaltered; status, model, settings and usage are included. Hidden reasoning
+bodies/summaries, encrypted reasoning and internal/account metadata are
+withheld. Each row contains the original private raw-response SHA-256 and the
+public projection SHA-256. This is not a byte-identical unredacted API export.
+
+The current ARM-A processing is deterministic and made no new provider call.
+There is therefore **no separate new ARM-A model-response envelope** to invent.
+Its actual emitted results are the final/native output files above.
+
+## What must be decided with Kiel before ARM-C runs
+
+- Whether Evolve Edge receives the native plan or the scorer representation.
+- Exact stage order and input/output adapter for the existing composition rule.
+- What ADOPT/HOLD/REJECT means for returned calls and baseline fallback.
+- Whether live/control state is an actual pre-decision input or only a label.
+- A final-lock rule that excludes gold, grades and correctness flags.
+
+These points describe an integration boundary, not private routing internals.
+Section 7.3 must be checked for this function-calling contract; it is not assumed
+applicable merely because it worked for static governance inputs. ARM-C has not
+been executed or certified by this package.

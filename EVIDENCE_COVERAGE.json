@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "declared_scope": "ARM-A evidence and matching documentation for Kiel; no new benchmark or ARM-C execution",
+  "requirements": [
+    {
+      "item": "case_level_baseline_and_final_outputs",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "answers.jsonl",
+        "arm_a_output_envelopes.jsonl"
+      ],
+      "rows": 1390
+    },
+    {
+      "item": "case_level_scores",
+      "status": "VERIFIED_PUBLIC_POST_LOCK",
+      "files": [
+        "grades.jsonl",
+        "metrics.json"
+      ],
+      "rows": 1390
+    },
+    {
+      "item": "frozen_inputs_and_offered_functions",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "input_cases.jsonl",
+        "manifest.json"
+      ],
+      "rows": 1390
+    },
+    {
+      "item": "as_sent_non_secret_baseline_requests",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "baseline_requests.jsonl"
+      ],
+      "rows": 1390
+    },
+    {
+      "item": "provider_origin_visible_outputs_and_metadata",
+      "status": "VERIFIED_PUBLIC_REDACTED_DERIVATIVE",
+      "files": [
+        "baseline_provider_responses.jsonl",
+        "RAW_PUBLICATION_POLICY.json"
+      ],
+      "rows": 1390,
+      "visible_outputs_unedited": true
+    },
+    {
+      "item": "unredacted_original_response_bytes",
+      "status": "WITHHELD_PRIVATE",
+      "reason": "contains encrypted/hidden reasoning and internal/account metadata; originals preserved and original SHA-256 published"
+    },
+    {
+      "item": "new_ARM_A_model_provider_response",
+      "status": "NOT_APPLICABLE",
+      "reason": "current ARM-A is deterministic processing with no new provider model call; actual native/final outputs published"
+    },
+    {
+      "item": "execution_settings",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "execution_config.json",
+        "baseline_requests.jsonl"
+      ],
+      "requested_vs_observed_separated": true
+    },
+    {
+      "item": "token_usage_cost_and_API_latency",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "baseline_usage_latency.jsonl",
+        "execution_config.json"
+      ],
+      "cost_is_archived_estimate_not_invoice": true
+    },
+    {
+      "item": "historical_ARM_A_compute_latency_or_cost",
+      "status": "NOT_CAPTURED",
+      "reason": "not measured in original deterministic execution; no fabricated values or new call used to reconstruct it"
+    },
+    {
+      "item": "actual_output_contract_for_ARM_C_design",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "OUTPUT_CONTRACT.md",
+        "arm_a_output_envelopes.jsonl"
+      ]
+    },
+    {
+      "item": "baseline_difference_evidence_and_alignment_plan",
+      "status": "VERIFIED_PUBLIC_WITH_UNRESOLVED_CAUSE",
+      "files": [
+        "BASELINE_ALIGNMENT.md",
+        "baseline_comparison.json"
+      ]
+    },
+    {
+      "item": "Kiel_1085_ungraded_baseline_raw_requests_and_outputs",
+      "status": "COUNTERPART_REQUIRED",
+      "source_boundary": "not present in the two inspected Oct3/Oct8 messages or delivered Oct8 ZIP",
+      "needed_for": "condition matching and causal explanation of baseline difference"
+    },
+    {
+      "item": "actual_ARM_C_stage_order_state_and_fallback",
+      "status": "COUNTERPART_ALIGNMENT_REQUIRED",
+      "reason": "Kiel must map Section7.3 to the published I/O; no transferred rule or successful ARM-C execution is asserted"
+    },
+    {
+      "item": "private_RCC_prompts_source_routes_keys",
+      "status": "INTENTIONALLY_EXCLUDED",
+      "reason": "explicit confidentiality boundary"
+    },
+    {
+      "item": "artifact_integrity_and_download",
+      "status": "VERIFIED_PUBLIC",
+      "files": [
+        "SHA256SUMS.txt",
+        "final_lock.json",
+        "receipt.json",
+        "KIEL_HANDOFF_EVIDENCE.zip"
+      ]
+    }
+  ],
+  "our_available_evidence_export_complete": true,
+  "matched_four_arm_comparison_complete": false,
+  "counterpart_data_fabricated": false,
+  "proprietary_engine_publicly_reexecutable": false,
+  "new_provider_calls": 0,
+  "email_sent": false
+}

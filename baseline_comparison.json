@@ -1,0 +1,104 @@
+{
+  "confirmed_local_baseline": {
+    "correct": 961,
+    "rows": 1390,
+    "mode": "native FC Responses API",
+    "generation": "separate local raw baseline, not Kiel answer sheet"
+  },
+  "kiel_reported_baseline": {
+    "correct": 1085,
+    "rows": 1390,
+    "native_FC_or_Prompt_mode": "NOT_ESTABLISHED_BY_DELIVERED_ARTIFACT"
+  },
+  "same_case_ids": true,
+  "same_category_counts": true,
+  "same_input_bytes_established": false,
+  "common_baseline_answer_sheet": false,
+  "category_comparison": {
+    "irrelevance": {
+      "rows": 240,
+      "local_baseline_correct": 220,
+      "local_baseline_accuracy_pct": 91.66666666666666,
+      "kiel_oct8_baseline_correct": 135,
+      "kiel_oct8_baseline_accuracy_pct": 56.25,
+      "kiel_oct3_prompt_reported_pct": 56.25,
+      "kiel_oct3_fc_reported_pct": 91.25,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "multiple": {
+      "rows": 200,
+      "local_baseline_correct": 131,
+      "local_baseline_accuracy_pct": 65.5,
+      "kiel_oct8_baseline_correct": 178,
+      "kiel_oct8_baseline_accuracy_pct": 89.0,
+      "kiel_oct3_prompt_reported_pct": 89,
+      "kiel_oct3_fc_reported_pct": 70.5,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "parallel_multiple": {
+      "rows": 200,
+      "local_baseline_correct": 132,
+      "local_baseline_accuracy_pct": 66.0,
+      "kiel_oct8_baseline_correct": 156,
+      "kiel_oct8_baseline_accuracy_pct": 78.0,
+      "kiel_oct3_prompt_reported_pct": 78,
+      "kiel_oct3_fc_reported_pct": 66.5,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "parallel": {
+      "rows": 200,
+      "local_baseline_correct": 142,
+      "local_baseline_accuracy_pct": 71.0,
+      "kiel_oct8_baseline_correct": 170,
+      "kiel_oct8_baseline_accuracy_pct": 85.0,
+      "kiel_oct3_prompt_reported_pct": 85,
+      "kiel_oct3_fc_reported_pct": 76,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "simple_java": {
+      "rows": 100,
+      "local_baseline_correct": 32,
+      "local_baseline_accuracy_pct": 32.0,
+      "kiel_oct8_baseline_correct": 56,
+      "kiel_oct8_baseline_accuracy_pct": 56.00000000000001,
+      "kiel_oct3_prompt_reported_pct": 56,
+      "kiel_oct3_fc_reported_pct": 47,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "simple_javascript": {
+      "rows": 50,
+      "local_baseline_correct": 13,
+      "local_baseline_accuracy_pct": 26.0,
+      "kiel_oct8_baseline_correct": 33,
+      "kiel_oct8_baseline_accuracy_pct": 66.0,
+      "kiel_oct3_prompt_reported_pct": 66,
+      "kiel_oct3_fc_reported_pct": 38,
+      "oct8_matches_oct3_prompt_column": true
+    },
+    "simple_python": {
+      "rows": 400,
+      "local_baseline_correct": 291,
+      "local_baseline_accuracy_pct": 72.75,
+      "kiel_oct8_baseline_correct": 357,
+      "kiel_oct8_baseline_accuracy_pct": 89.25,
+      "kiel_oct3_prompt_reported_pct": 89.25,
+      "kiel_oct3_fc_reported_pct": 74.5,
+      "oct8_matches_oct3_prompt_column": true
+    }
+  },
+  "leading_hypothesis": "Prompt/FC or associated representation/handler mismatch; all seven Oct8 category percentages match Oct3 Prompt column",
+  "hypothesis_is_confirmed_cause": false,
+  "additional_required_evidence": [
+    "Kiel ungraded raw baseline outputs",
+    "Kiel exact per-case request bodies and Prompt/FC handler identity",
+    "Kiel input hashes and row manifest",
+    "Kiel explicit vs provider-effective decoding/tool settings",
+    "Kiel scorer/version/output-normalization identity and incomplete-case policy"
+  ],
+  "kiel_attachment_source_sha256": "9d994380e90d24ec1c49cad7a8f5882911ca0752d576bafd3702d3d4bb8a7308",
+  "sources": [
+    "Kiel Oct3 baseline comparison message, directly inspected",
+    "Kiel Oct8 ARM-B message and locally preserved attachment, directly inspected",
+    "local original request/response/usage artifacts, source-hash checked"
+  ]
+}

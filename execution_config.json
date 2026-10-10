@@ -1,0 +1,159 @@
+{
+  "benchmark": "BFCL V4",
+  "scope": "seven frozen non-live categories",
+  "rows": 1390,
+  "category_counts": {
+    "irrelevance": 240,
+    "multiple": 200,
+    "parallel_multiple": 200,
+    "parallel": 200,
+    "simple_java": 100,
+    "simple_javascript": 50,
+    "simple_python": 400
+  },
+  "official_commit": "f7cf7359b7ac615a0b294831c5ba2bc95ee4a000",
+  "baseline_generation": {
+    "endpoint": "https://api.openai.com/v1/responses",
+    "model": "gpt-5-nano-2025-08-07",
+    "mode": "native function calling",
+    "request_source": "baseline_requests.jsonl",
+    "requested_common_settings": {
+      "model": "gpt-5-nano-2025-08-07",
+      "store": false,
+      "include": [
+        "reasoning.encrypted_content"
+      ],
+      "reasoning": {
+        "summary": "auto"
+      },
+      "max_output_tokens": 8192
+    },
+    "not_explicitly_sent": [
+      "reasoning.effort",
+      "temperature",
+      "tool_choice",
+      "parallel_tool_calls",
+      "top_p",
+      "seed"
+    ],
+    "provider_reported_settings": {
+      "reasoning": {
+        "context": "current_turn",
+        "effort": "medium",
+        "generate_summary": null,
+        "mode": "standard",
+        "summary": "detailed"
+      },
+      "temperature": 1.0,
+      "tool_choice": "auto",
+      "parallel_tool_calls": true,
+      "top_p": 1.0,
+      "rows_checked": 1390
+    },
+    "original_prompt_roles": {
+      "user": 1390,
+      "system": 0,
+      "developer": 0
+    },
+    "proprietary_RCC_prompt_in_baseline_request": false,
+    "concurrency": 12,
+    "saved_dependency_versions": {
+      "bfcl-eval": "2025.12.17",
+      "openai": "3.26.1",
+      "pydantic": "2.14.0",
+      "tiktoken": "0.14.0"
+    },
+    "status_counts": {
+      "completed": 1388,
+      "incomplete": 2
+    },
+    "incomplete_case_ids": [
+      "parallel_97",
+      "parallel_170"
+    ],
+    "incomplete_policy": "retained as returned; no answer-quality retries or deletion",
+    "usage_totals": {
+      "cached_input_tokens": 0,
+      "input_tokens": 238365,
+      "output_tokens": 1294038,
+      "reasoning_output_tokens": 1099200,
+      "total_tokens": 1532403
+    },
+    "cost_estimate_USD": 0.5295334500000002,
+    "cost_label": "archived listed-rate estimate, not invoice or current pricing",
+    "per_request_latency": {
+      "count": 1390,
+      "mean_seconds": 13.561561711510791,
+      "median_seconds": 8.937211,
+      "sum_is_not_wall_time": true
+    },
+    "observed_request_setting_counts": {
+      "model": {
+        "\"gpt-5-nano-2025-08-07\"": 1390
+      },
+      "reasoning": {
+        "{\"summary\": \"auto\"}": 1390
+      },
+      "temperature": {
+        "\"NOT_SENT\"": 1390
+      },
+      "max_output_tokens": {
+        "8192": 1390
+      },
+      "tool_choice": {
+        "\"NOT_SENT\"": 1390
+      },
+      "parallel_tool_calls": {
+        "\"NOT_SENT\"": 1390
+      },
+      "store": {
+        "false": 1390
+      },
+      "top_p": {
+        "\"NOT_SENT\"": 1390
+      },
+      "text": {
+        "\"NOT_SENT\"": 1390
+      },
+      "include": {
+        "[\"reasoning.encrypted_content\"]": 1390
+      }
+    }
+  },
+  "ARM_A_processing": {
+    "release": "v26.4",
+    "release_identity_sha256": "063088305d07d62c4845649863f62d51b00a9511457f0c612fe444d71b941ed9",
+    "execution": "deterministic processing of original inputs and shared local baseline",
+    "provider_model_generation_calls": 0,
+    "provider_usage_tokens": 0,
+    "provider_call_cost_USD": 0,
+    "compute_cost": "NOT_CAPTURED",
+    "per_case_processing_latency": "NOT_CAPTURED",
+    "candidate_model_reasoning_effort": "NOT_APPLICABLE",
+    "baseline_reused": true,
+    "gold_or_scorer_before_final_lock": false,
+    "prior_correctness_mask": false,
+    "external_functions_executed": false,
+    "output_contract": "OUTPUT_CONTRACT.md",
+    "native_and_final_outputs": "arm_a_output_envelopes.jsonl",
+    "private_implementation_source_included": false,
+    "public_reexecution_of_private_engine": "NOT_PROVIDED"
+  },
+  "evaluation": {
+    "scorer_source_identity": {
+      "registry_source_sha256": "08f9a3dd16a6c8e9f6aec47d6f4ee19e062642c7fe74af71ea9032ba9af4354b",
+      "registry_projection": "Exact official two nano AST entries; unrelated provider imports omitted",
+      "checker_source_sha256": "2aae7a68461a8f76c0be3894c8901b66b56967a1989d3ab066051e3fb97f1538",
+      "handler_source_sha256": "57369acb498789168d61fc94574a814a2b79fddafe75f2a47650872150d476e3",
+      "scoring_functions_modified": false
+    },
+    "scorer_wrapper_sha256": "fa7f6254171d48e5772c4c91c23bfbdf9418326146bbb5982c9e4dff6aaf2a2e",
+    "all1390_final_lock_utc": "2026-10-10T08:50:50.901677+00:00",
+    "scoring_started_utc": "2026-10-10T08:51:01.253291+00:00",
+    "scoring_completed_utc": "2026-10-10T08:51:01.722918+00:00",
+    "proof_mode": "post_development_gold_blind_semantic_selection_replay",
+    "fresh": false,
+    "final_answers_sha256": "08a04a47f47c02b076a089ecdd32acccce98fc99bdceed01b2cb8f4340fb2ac7",
+    "gold_answers_in_public_package": false
+  }
+}

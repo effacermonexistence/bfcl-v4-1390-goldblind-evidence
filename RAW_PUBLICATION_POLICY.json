@@ -1,0 +1,38 @@
+{
+  "status": "source_faithful_redacted_derivatives",
+  "baseline_response_rows": 1390,
+  "unredacted_authority_originals": "preserved privately, never overwritten",
+  "source_raw_sha256_per_case": true,
+  "visible_function_call_and_message_output_items": "unaltered from provider response",
+  "included": "non-secret response metadata, model/settings/status/usage, actual visible output items, original non-secret request body, native/final ARM-A I-O",
+  "withheld": [
+    "hidden/reasoning content and summaries",
+    "encrypted reasoning payloads",
+    "internal/account/access/billing/safety metadata",
+    "authorization headers and credentials",
+    "proprietary prompts, implementation source, routes and verifier traces"
+  ],
+  "redaction_counts": {
+    "metadata:background": 1390,
+    "metadata:instructions": 1390,
+    "metadata:conversation": 1390,
+    "metadata:prompt_cache_options": 1390,
+    "metadata:tools": 1390,
+    "metadata:previous_response_id": 1390,
+    "metadata:metadata": 1390,
+    "metadata:prompt_cache_key": 1390,
+    "metadata:prompt_cache_retention": 1390,
+    "metadata:user": 1390,
+    "metadata:prompt_cache_diagnostics": 1390,
+    "metadata:prompt": 1390,
+    "metadata:billing": 1390,
+    "metadata:moderation": 1390,
+    "metadata:safety_identifier": 1390,
+    "metadata:access_programs": 1390,
+    "metadata:tool_usage": 1390,
+    "reasoning_bodies": 1390
+  },
+  "no_unredacted_byte_original_claim": true,
+  "new_ARM_A_provider_responses": "NOT_APPLICABLE; no new provider generation in this run",
+  "exported_metadata_is_not_model_internal_execution_trace": true
+}

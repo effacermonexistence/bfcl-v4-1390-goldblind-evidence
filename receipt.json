@@ -32,5 +32,16 @@
   "public_derivative": true,
   "internal_source_prompt_and_routing_details_included": false,
   "installed_frozen_recovered_outputs_match": true,
-  "previous_public_commit": "8857d3d1e4312bf16aacc96661cec7e1ca0ed574"
+  "previous_public_commit": "8857d3d1e4312bf16aacc96661cec7e1ca0ed574",
+  "evidence_supplement": {
+    "version": "1.0",
+    "published_data": "1,390 original inputs/requests, redacted provider envelopes, usage/latency, native/final I-O and alignment documentation",
+    "coverage": "EVIDENCE_COVERAGE.json",
+    "output_contract": "OUTPUT_CONTRACT.md",
+    "private_logic_or_credentials_included": false,
+    "provider_raw_publication": "source-faithful redacted derivative; unedited visible outputs, private byte originals retained",
+    "benchmark_result_changed": false,
+    "Kiel_common_baseline_alignment": "PENDING_COUNTERPART_RAW_CONFIG",
+    "new_model_calls_for_supplement": 0
+  }
 }
