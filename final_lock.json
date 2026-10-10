@@ -1,9 +1,9 @@
 {
-  "utc": "2026-10-09T18:03:03.348682+00:00",
+  "utc": "2026-10-10T08:50:50.901677+00:00",
   "rows": 1390,
-  "final_sha256": "a7412b255b02d1fe66938a828c65d263b93493f803b640855b3194785904ec71",
-  "proof_mode": "gold_blind_post_dev_reproduction",
+  "final_sha256": "08a04a47f47c02b076a089ecdd32acccce98fc99bdceed01b2cb8f4340fb2ac7",
+  "proof_mode": "post_development_gold_blind_semantic_selection_replay",
   "all_final_answers_locked_before_scoring": true,
-  "gold_or_scorer_access": false,
-  "dev_correct_row_retention": false
+  "gold_or_scorer_before_final_lock": false,
+  "prior_correctness_mask_seen": false
 }

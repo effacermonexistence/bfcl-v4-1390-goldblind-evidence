@@ -1,75 +1,77 @@
 {
   "rows": 1390,
   "baseline_correct": 961,
-  "final_correct": 1127,
+  "final_correct": 1007,
   "baseline_accuracy_pct": 69.13669064748201,
-  "final_accuracy_pct": 81.07913669064747,
-  "net_gain_correct": 166,
-  "absolute_delta_pp": 11.942446043165468,
-  "relative_uplift_pct": 17.273673257023933,
-  "accepted_C": 226,
-  "accepted_B": 60,
-  "neutral_rows": 1104,
+  "final_accuracy_pct": 72.44604316546763,
+  "net_gain_correct": 46,
+  "absolute_delta_pp": 3.3093525179856114,
+  "relative_uplift_pct": 4.786680541103017,
+  "accepted_C": 46,
+  "accepted_B": 0,
   "category_results": {
     "irrelevance": {
       "rows": 240,
       "baseline_correct": 220,
-      "final_correct": 213,
-      "accepted_C": 6,
-      "accepted_B": 13
+      "final_correct": 220,
+      "accepted_C": 0,
+      "accepted_B": 0
     },
     "multiple": {
       "rows": 200,
       "baseline_correct": 131,
-      "final_correct": 170,
-      "accepted_C": 48,
-      "accepted_B": 9
+      "final_correct": 134,
+      "accepted_C": 3,
+      "accepted_B": 0
     },
     "parallel_multiple": {
       "rows": 200,
       "baseline_correct": 132,
-      "final_correct": 152,
-      "accepted_C": 27,
-      "accepted_B": 7
+      "final_correct": 132,
+      "accepted_C": 0,
+      "accepted_B": 0
     },
     "parallel": {
       "rows": 200,
       "baseline_correct": 142,
-      "final_correct": 163,
-      "accepted_C": 29,
-      "accepted_B": 8
+      "final_correct": 142,
+      "accepted_C": 0,
+      "accepted_B": 0
     },
     "simple_java": {
       "rows": 100,
       "baseline_correct": 32,
-      "final_correct": 60,
-      "accepted_C": 28,
+      "final_correct": 61,
+      "accepted_C": 29,
       "accepted_B": 0
     },
     "simple_javascript": {
       "rows": 50,
       "baseline_correct": 13,
-      "final_correct": 32,
-      "accepted_C": 19,
+      "final_correct": 25,
+      "accepted_C": 12,
       "accepted_B": 0
     },
     "simple_python": {
       "rows": 400,
       "baseline_correct": 291,
-      "final_correct": 337,
-      "accepted_C": 69,
-      "accepted_B": 23
+      "final_correct": 293,
+      "accepted_C": 2,
+      "accepted_B": 0
     }
   },
-  "model": "gpt-5-nano-2025-08-07",
-  "reasoning_effort": "medium",
-  "usage_new_candidate_calls": {
-    "input_tokens": 2104427,
-    "cached_input_tokens": 1513088,
-    "output_tokens_including_reasoning": 4647822,
-    "reasoning_tokens_component": 4325056,
-    "total_tokens": 6752249,
-    "visible_output_tokens": 322766
+  "baseline_preserved": 1323,
+  "adopted": 67,
+  "changed_rows": 67,
+  "neutral_rows": 1344,
+  "baseline_model": "gpt-5-nano-2025-08-07",
+  "new_provider_calls": 0,
+  "new_provider_usage_tokens": 0,
+  "new_provider_cost_USD": 0,
+  "historical_generation_cost_excluded": true,
+  "improvement_components": {
+    "semantic_verification": 5,
+    "meaning_preserving_representation": 41
   },
-  "received_cost_estimate_USD": 1.8962611900000022
+  "proof_mode": "post_development_gold_blind_semantic_selection_replay"
 }

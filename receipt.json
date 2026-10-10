@@ -1,26 +1,24 @@
 {
-  "created_utc": "2026-10-09T18:03:22.985199+00:00",
-  "status": "all_1390_locked_scored_verified",
-  "proof_mode": "gold_blind_post_dev_reproduction",
-  "final_lock_utc": "2026-10-09T18:03:03.348682+00:00",
-  "scoring_started_utc": "2026-10-09T18:03:17.128641+00:00",
-  "scoring_completed_utc": "2026-10-09T18:03:17.482609+00:00",
+  "created_utc": "2026-10-10T09:05:36.784136+00:00",
+  "status": "all_1390_locked_scored_installed_verified",
+  "proof_mode": "post_development_gold_blind_semantic_selection_replay",
+  "fresh": false,
+  "final_lock_utc": "2026-10-10T08:50:50.901677+00:00",
+  "scoring_started_utc": "2026-10-10T08:51:01.253291+00:00",
+  "scoring_completed_utc": "2026-10-10T08:51:01.722918+00:00",
   "gold_or_scorer_before_final_lock": false,
-  "model": "gpt-5-nano-2025-08-07",
-  "candidate_settings": {
-    "effort": "medium",
-    "max_output_tokens": 16384
-  },
   "baseline_reused": true,
   "baseline_historical_settings": {
     "model": "gpt-5-nano-2025-08-07",
-    "reasoning_effort": "provider default (not explicitly set)",
+    "effort": "provider default",
     "max_output_tokens": 8192
   },
-  "final_sheet_sha256": "a7412b255b02d1fe66938a828c65d263b93493f803b640855b3194785904ec71",
-  "cost_estimate_not_invoice": true,
-  "credentials_included": false,
-  "external_functions_executed": false,
+  "candidate_execution": "deterministic source-derived candidates; no new provider generation",
+  "new_provider_calls": 0,
+  "new_provider_usage_tokens": 0,
+  "new_provider_cost_USD": 0,
+  "historical_generation_cost_excluded": true,
+  "final_sheet_sha256": "08a04a47f47c02b076a089ecdd32acccce98fc99bdceed01b2cb8f4340fb2ac7",
   "scorer_source_identity": {
     "registry_source_sha256": "08f9a3dd16a6c8e9f6aec47d6f4ee19e062642c7fe74af71ea9032ba9af4354b",
     "registry_projection": "Exact official two nano AST entries; unrelated provider imports omitted",
@@ -29,7 +27,10 @@
     "scoring_functions_modified": false
   },
   "scorer_sha256": "fa7f6254171d48e5772c4c91c23bfbdf9418326146bbb5982c9e4dff6aaf2a2e",
+  "credentials_included": false,
+  "external_functions_executed": false,
   "public_derivative": true,
-  "original_grades_sha256": "a20aaa4cf33b0233a24c1e37f038a67888f772eebdcd7520be87896fef111fdd",
-  "internal_source_prompt_and_routing_details_included": false
+  "internal_source_prompt_and_routing_details_included": false,
+  "installed_frozen_recovered_outputs_match": true,
+  "previous_public_commit": "8857d3d1e4312bf16aacc96661cec7e1ca0ed574"
 }
