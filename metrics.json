@@ -1,0 +1,75 @@
+{
+  "rows": 1390,
+  "baseline_correct": 961,
+  "final_correct": 1127,
+  "baseline_accuracy_pct": 69.13669064748201,
+  "final_accuracy_pct": 81.07913669064747,
+  "net_gain_correct": 166,
+  "absolute_delta_pp": 11.942446043165468,
+  "relative_uplift_pct": 17.273673257023933,
+  "accepted_C": 226,
+  "accepted_B": 60,
+  "neutral_rows": 1104,
+  "category_results": {
+    "irrelevance": {
+      "rows": 240,
+      "baseline_correct": 220,
+      "final_correct": 213,
+      "accepted_C": 6,
+      "accepted_B": 13
+    },
+    "multiple": {
+      "rows": 200,
+      "baseline_correct": 131,
+      "final_correct": 170,
+      "accepted_C": 48,
+      "accepted_B": 9
+    },
+    "parallel_multiple": {
+      "rows": 200,
+      "baseline_correct": 132,
+      "final_correct": 152,
+      "accepted_C": 27,
+      "accepted_B": 7
+    },
+    "parallel": {
+      "rows": 200,
+      "baseline_correct": 142,
+      "final_correct": 163,
+      "accepted_C": 29,
+      "accepted_B": 8
+    },
+    "simple_java": {
+      "rows": 100,
+      "baseline_correct": 32,
+      "final_correct": 60,
+      "accepted_C": 28,
+      "accepted_B": 0
+    },
+    "simple_javascript": {
+      "rows": 50,
+      "baseline_correct": 13,
+      "final_correct": 32,
+      "accepted_C": 19,
+      "accepted_B": 0
+    },
+    "simple_python": {
+      "rows": 400,
+      "baseline_correct": 291,
+      "final_correct": 337,
+      "accepted_C": 69,
+      "accepted_B": 23
+    }
+  },
+  "model": "gpt-5-nano-2025-08-07",
+  "reasoning_effort": "medium",
+  "usage_new_candidate_calls": {
+    "input_tokens": 2104427,
+    "cached_input_tokens": 1513088,
+    "output_tokens_including_reasoning": 4647822,
+    "reasoning_tokens_component": 4325056,
+    "total_tokens": 6752249,
+    "visible_output_tokens": 322766
+  },
+  "received_cost_estimate_USD": 1.8962611900000022
+}
