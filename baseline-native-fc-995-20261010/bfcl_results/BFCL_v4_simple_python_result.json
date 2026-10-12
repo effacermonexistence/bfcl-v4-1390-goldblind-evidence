@@ -1,0 +1,400 @@
+{"id":"simple_python_0","result":"Area = (base × height) / 2 = (10 × 5) / 2 = 25 square units."}
+{"id":"simple_python_1","result":[{"math_factorial":"{\"number\":5}"}]}
+{"id":"simple_python_2","result":[{"math_hypot":"{\"x\":4,\"y\":5,\"z\":0}"}]}
+{"id":"simple_python_3","result":[{"algebra_quadratic_roots":"{\"a\":1,\"b\":-3,\"c\":2}"}]}
+{"id":"simple_python_4","result":[{"solve_quadratic_equation":"{\"a\":2,\"b\":6,\"c\":5}"}]}
+{"id":"simple_python_5","result":[{"solve_quadratic":"{\"a\":3,\"b\":-11,\"c\":-4,\"root_type\":\"real\"}"}]}
+{"id":"simple_python_6","result":[{"solve_quadratic":"{\"a\":2,\"b\":5,\"c\":3}"}]}
+{"id":"simple_python_7","result":[{"calculate_circumference":"{\"radius\":4,\"unit\":\"in\"}"}]}
+{"id":"simple_python_8","result":"Area = πr² = π(10)² = 100π ≈ 314.16 square units."}
+{"id":"simple_python_9","result":[{"geometry_calculate_area_circle":"{\"radius\":5,\"unit\":\"units\"}"}]}
+{"id":"simple_python_10","result":[{"calculate_area":"{\"base\":6,\"height\":10,\"unit\":\"cm\"}"}]}
+{"id":"simple_python_11","result":[{"calculate_triangle_area":"{\"base\":10,\"height\":5}"}]}
+{"id":"simple_python_12","result":[{"geometry_circumference":"{\"radius\":3,\"units\":\"cm\"}"}]}
+{"id":"simple_python_13","result":"The area is the definite integral ∫ from 1 to 3 of x^2 dx.\n\n- Antiderivative: x^3/3\n- Evaluate: (3^3)/3 − (1^3)/3 = 27/3 − 1/3 = 9 − 1/3 = 26/3\n\nSo, area = 26/3 ≈ 8.6667 square units."}
+{"id":"simple_python_14","result":[{"calculate_derivative":"{\"function\":\"3*x**2 + 2*x - 1\",\"x_value\":0}"}]}
+{"id":"simple_python_15","result":[{"integrate":"{\"end_x\":3,\"function\":\"x**3\",\"method\":\"simpson\",\"start_x\":-2}"}]}
+{"id":"simple_python_16","result":"The derivative of f(x) = 2x^2 is f'(x) = 4x. At x = 1, f'(1) = 4."}
+{"id":"simple_python_17","result":[{"get_prime_factors":"{\"formatted\": true, \"number\": 450}"}]}
+{"id":"simple_python_18","result":"Prime factorization of 123456:\n\n- 123456 = 2^6 × 1929\n- 1929 = 3 × 643\n- 643 is prime\n\nSo the prime factors are: 2^6 · 3 · 643 (i.e., 2, 2, 2, 2, 2, 2, 3, 643)."}
+{"id":"simple_python_19","result":[{"math_gcd":"{\"num1\": 40, \"num2\": 50}"}]}
+{"id":"simple_python_20","result":[{"math_hcf":"{\"number1\":36,\"number2\":24}"}]}
+{"id":"simple_python_21","result":"12\n\nReason (Euclidean algorithm):\n- 48 = 36 × 1 + 12\n- 36 = 12 × 3 + 0\nWhen the remainder is 0, the divisor is the GCD, which is 12."}
+{"id":"simple_python_22","result":[{"math_gcd":"{\"num1\":12,\"num2\":15}"}]}
+{"id":"simple_python_23","result":[{"prime_factorize":"{\"number\":60,\"return_type\":\"dictionary\"}"}]}
+{"id":"simple_python_24","result":"6\n\nReason: gcd(12,18) = gcd(18,12) = gcd(12,6) = gcd(6,0) = 6."}
+{"id":"simple_python_25","result":[{"calculate_final_velocity":"{\"gravity\": 9.81, \"height\": 150, \"initial_velocity\": 0}"}]}
+{"id":"simple_python_26","result":[{"calculate_velocity":"{\"distance\":50,\"duration\":2,\"unit\":\"km/h\"}"}]}
+{"id":"simple_python_27","result":[{"final_velocity":"{\"acceleration\": 2, \"initial_velocity\": 10, \"time\": 5}"}]}
+{"id":"simple_python_28","result":[{"calculate_displacement":"{\"acceleration\":9.8,\"initial_velocity\":10,\"time\":5}"}]}
+{"id":"simple_python_29","result":"Using v = v0 + g t with v0 = 0 and g ≈ 9.81 m/s² (downward):\n\nv = 0 + (9.81 m/s²)(5 s) = 49.05 m/s downward.\n\nSo, the final speed is about 49 m/s (downward). If you treat downward as negative, the velocity would be −49.05 m/s."}
+{"id":"simple_python_30","result":"Use the kinematics equation v^2 = u^2 + 2as.\n\n- u = 0 (started from rest)\n- a = 4 m/s^2\n- s = 300 m\n\nv^2 = 0 + 2 × 4 × 300 = 2400\nv = sqrt(2400) ≈ 48.99 m/s ≈ 49.0 m/s\n\nSo the final velocity is about 49 m/s (roughly 176 km/h)."}
+{"id":"simple_python_31","result":[{"calculate_final_velocity":"{\"acceleration\":9.8,\"initial_velocity\":0,\"time\":5}"}]}
+{"id":"simple_python_32","result":"Approximately 44.3 m/s downward.\n\nReason:\n- Use v^2 = v0^2 + 2 g h\n- v0 = 0, g = 9.8 m/s^2, h = 100 m\n- v = sqrt(2 × 9.8 × 100) = sqrt(1960) ≈ 44.3 m/s"}
+{"id":"simple_python_33","result":[{"get_directions":"{\"end_location\":\"Melbourne\",\"route_type\":\"fastest\",\"start_location\":\"Sydney\"}"}]}
+{"id":"simple_python_34","result":[{"travel_itinerary_generator":"{\"daily_budget\": 100, \"days\": 7, \"destination\": \"Tokyo\", \"exploration_type\": \"nature\"}"}]}
+{"id":"simple_python_35","result":[{"vegan_restaurant_find_nearby":"{\"location\":\"New York, NY\",\"operating_hours\":23}"}]}
+{"id":"simple_python_36","result":[{"get_shortest_driving_distance":"{\"destination\":\"Washington D.C.\",\"origin\":\"New York City\",\"unit\":\"km\"}"}]}
+{"id":"simple_python_37","result":[{"route_estimate_time":"{\"end_location\":\"Los Angeles\",\"start_location\":\"San Francisco\",\"stops\":[\"Santa Barbara\",\"Monterey\"]}"}]}
+{"id":"simple_python_38","result":"About the Coulomb potential energy between two point charges.\n\n- q1 = 1e-9 C, q2 = 2e-9 C, r = 0.05 m\n- k ≈ 8.99e9 N·m^2/C^2\n\nU = k * q1 * q2 / r\n  = (8.99e9) * (1e-9 * 2e-9) / 0.05\n  ≈ 3.60 × 10^-7 J\n\nSo the electrostatic potential energy is roughly 3.6 × 10^-7 joules (positive, since the charges are same sign). If you meant the electric potential at a point or the potential due to one charge at the location of the other, let me know and I can compute that too."}
+{"id":"simple_python_39","result":[{"calculate_electric_field":"{\"charge\": 2, \"distance\": 3, \"permitivity\": 8.854e-12}"}]}
+{"id":"simple_python_40","result":"Using the magnetic field at the center of a circular loop:\n- Formula: B = μ0 I / (2R)\n- μ0 = 4π × 10^-7 T·m/A\n- I = 5 A\n- R = 4 m\n\nB = (4π × 10^-7 × 5) / (2 × 4) T\n  = (20π × 10^-7) / 8 T\n  ≈ 7.85 × 10^-7 T\n\nSo, the magnetic field at the center is about 7.85 × 10^-7 Tesla (0.785 μT). Its direction is along the axis perpendicular to the loop, given by the right-hand rule."}
+{"id":"simple_python_41","result":[{"electromagnetic_force":"{\"charge1\":5,\"charge2\":7,\"distance\":3,\"medium_permittivity\":8.8541878128e-12}"}]}
+{"id":"simple_python_42","result":[{"calculate_resonant_frequency":"{\"capacitance\":0.0001,\"inductance\":0.05,\"round_off\":2}"}]}
+{"id":"simple_python_43","result":"Using B = μ0 I / (2π r):\n\n- μ0 = 4π × 10^-7 T·m/A\n- I = 20 A\n- r = 10 m\n\nB = (4π × 10^-7 × 20) / (2π × 10) = 4 × 10^-7 T\n\nSo the magnetic field strength is about 4.0 × 10^-7 tesla (0.4 microtesla) at 10 meters from the wire."}
+{"id":"simple_python_44","result":[{"calculate_electric_field_strength":"{\"charge\":0.01,\"distance\":4,\"medium\":\"vacuum\"}"}]}
+{"id":"simple_python_45","result":[{"thermo_calculate_energy":"{\"mass\":100,\"phase_transition\":\"vaporization\",\"substance\":\"water\"}"}]}
+{"id":"simple_python_46","result":[{"calculate_final_temperature":"{\"mass1\":20,\"mass2\":15,\"specific_heat_capacity\":4.2,\"temperature1\":30,\"temperature2\":60}"}]}
+{"id":"simple_python_47","result":[{"get_boiling_melting_points":"{\"sea_level\":5000,\"substance\":\"water\"}"}]}
+{"id":"simple_python_48","result":[{"calculate_density":"{\"mass\":45,\"unit\":\"kg/m^3\",\"volume\":15}"}]}
+{"id":"simple_python_49","result":"Absolute pressure = atmospheric pressure + gauge pressure = 1 atm + 2 atm = 3 atm.\n\nConvert to pascals: 1 atm = 101,325 Pa\n3 atm × 101,325 Pa/atm = 303,975 Pa\n\nAnswer: 303,975 Pa (about 303.98 kPa)."}
+{"id":"simple_python_50","result":"Approximately 2.5 × 10^3 J/K (for water at 100°C, not vapor).\n\nReasoning (assuming final state is liquid water at 100°C under 1 atm):\n- Melting at 0°C: ΔS_fusion = L_f / T_m = (333.55 kJ/kg) / (273.15 K) ≈ 1.22 × 10^3 J/K.\n- Heating from 0°C to 100°C as liquid water: ΔS_heating = Cp_water × ln(T2/T1) = (4.184 kJ/kg·K) × ln(373.15/273.15) ≈ 4.184 × 0.313 ≈ 1.31 × 10^3 J/K.\n- Total ΔS ≈ 1.22 × 10^3 + 1.31 × 10^3 ≈ 2.53 × 10^3 J/K.\n\nNote: If the final state were steam at 100°C, you’d add the entropy of vaporization (≈ 6.0 × 10^3 J/K), giving a much larger total."}
+{"id":"simple_python_51","result":"Assuming constant heat capacity C = 5 J/K and a reversible process with T changing from Ti = 300 K to Tf = 400 K:\n\n- Entropy change: ΔS = ∫ Ti^Tf (C dT / T) = C ln(Tf/Ti)\n- Numerical: ΔS = 5 ln(400/300) = 5 ln(4/3) ≈ 5 × 0.287682 ≈ 1.44 J/K\n\nSo, the entropy change is about 1.44 J/K. (Assumes constant C and a reversible process.) If you want, I can show the calculation with more digits or consider a non-constant C."}
+{"id":"simple_python_52","result":[{"calc_heat_capacity":"{\"gas\":\"air\",\"temp\":298,\"volume\":10}"}]}
+{"id":"simple_python_53","result":[{"fetch_DNA_sequence":"{\"DNA_id\":\"DNA123\",\"format\":\"fasta\",\"upstream\":0}"}]}
+{"id":"simple_python_54","result":[{"get_protein_sequence":"{\"gene\":\"BRCA1\",\"species\":\"Homo sapiens\"}"}]}
+{"id":"simple_python_55","result":[{"biology_get_cell_info":"{\"cell_type\":\"human cell\",\"detailed\":true}"}]}
+{"id":"simple_python_56","result":[{"cellbio_get_proteins":"{\"cell_compartment\":\"plasma membrane\",\"include_description\":false}"}]}
+{"id":"simple_python_57","result":[{"calculate_cell_density":"{\"calibration_factor\": 1e9, \"dilution\": 5, \"optical_density\": 0.6}"}]}
+{"id":"simple_python_58","result":"ATP synthase is a reversible enzyme complex in the inner mitochondrial membrane that makes ATP from ADP and inorganic phosphate (Pi) using the proton electrochemical gradient established by the electron transport chain (ETC).\n\n- How it works: Protons (H+) are pumped across the membrane by ETC complexes, creating a proton motive force. Protons flow back into the matrix through the F0 portion of ATP synthase, causing rotation of its rotor. This mechanical motion drives the F1 catalytic head to combine ADP and Pi into ATP.\n- Stoichiometry: Roughly 3 (often quoted as about 3–4) protons are required to synthesize one ATP, depending on the exact structure of the F0 c-ring.\n- Reversibility: If the proton gradient collapses, ATP synthase can run in reverse, hydrolyzing ATP to pump protons and help maintain the gradient (in some tissues this can generate heat instead of ATP).\n\nOverall, its primary function is to convert the energy of the proton gradient into the chemical energy of ATP, fueling cellular processes."}
+{"id":"simple_python_59","result":[{"calculate_molecular_weight":"{\"compound\":\"C6H12O6\",\"to_unit\":\"g/mol\"}"}]}
+{"id":"simple_python_60","result":[{"mutation_type_find":"{\"snp_id\":\"rs6034464\",\"species\":\"Homo sapiens\"}"}]}
+{"id":"simple_python_61","result":[{"diabetes_prediction":"{\"activity_level\":\"lightly active\",\"height\":70,\"weight\":150}"}]}
+{"id":"simple_python_62","result":[{"analyze_dna_sequence":"{\"mutation_type\":\"substitution\",\"reference_sequence\":\"AGTCCATCGAACGTACGTACG\",\"sequence\":\"AGTCGATCGAACGTACGTACG\"}"}]}
+{"id":"simple_python_63","result":"About 98–99% of DNA sequence is similar between humans and chimpanzees.\n\nNotes:\n- The commonly cited figure is in that range (often quoted as ~98.8% or ~99%), but the exact number depends on how you define and measure “similarity” (which parts of the genome are compared, how gaps/indels are treated, etc.).\n- This similarity refers to nucleotide identity across aligned genomic regions, not to overall gene content or regulatory differences. Small regulatory changes and gene expression differences can have big effects on biology and phenotype.\n- Some sources report slightly lower or higher numbers depending on the method and dataset used.\n\nIf you want, I can run a specific calculation using a defined metric (format = percentage) with a tool, or provide more detail on how different methods yield different numbers."}
+{"id":"simple_python_64","result":"9% (0.09)\n\nExplanation: With Hardy-Weinberg, p = frequency of A = 0.3, so AA frequency = p^2 = 0.3^2 = 0.09 = 9%."}
+{"id":"simple_python_65","result":[{"calculate_density":"{\"country\":\"Brazil\",\"land_area\":8500000,\"population\":213000000,\"year\":\"2022\"}"}]}
+{"id":"simple_python_66","result":[{"ecology_data_precipitation_stats":"{\"location\":\"Amazon rainforest\",\"time_frame\":\"six_months\"}"}]}
+{"id":"simple_python_67","result":[{"identify_bird":"{\"color\":\"green\",\"habitat\":\"forest\",\"size\":\"small\"}"}]}
+{"id":"simple_python_68","result":[{"forest_growth_forecast":"{\"include_human_impact\": true, \"location\": \"Yellowstone National Park\", \"years\": 5}"}]}
+{"id":"simple_python_69","result":[{"ecology_get_turtle_population":"{\"location\":\"Mississippi River\",\"species\":true,\"year\":2020}"}]}
+{"id":"simple_python_70","result":[{"calculate_vehicle_emission":"{\"emission_factor\":355.48,\"miles_driven\":1500,\"vehicle_type\":\"gas\"}"}]}
+{"id":"simple_python_71","result":[{"generate_DNA_sequence":"{\"length\":100,\"preferences\":[\"G\",\"C\",\"A\",\"T\"]}"}]}
+{"id":"simple_python_72","result":[{"calculate_fitness":"{\"trait_contributions\":[0.4,0.6],\"trait_values\":[0.8,0.7]}"}]}
+{"id":"simple_python_73","result":[{"population_projections":"{\"country\":\"United States\",\"growth_rate\":1.2,\"years\":20}"}]}
+{"id":"simple_python_74","result":[{"calculate_bacteria_evolution_rate":"{\"duplication_frequency\": 1, \"duration\": 6, \"generation_time\": 60, \"start_population\": 5000}"}]}
+{"id":"simple_python_75","result":[{"elephant_population_estimate":"{\"current_population\":35000,\"growth_rate\":0.015,\"years\":5}"}]}
+{"id":"simple_python_76","result":[{"prediction_evolution":"{\"model\":\"Darwin\",\"species\":\"Homo sapiens\",\"years\":50}"}]}
+{"id":"simple_python_77","result":[{"restaurant_find_nearby":"{\"dietary_preference\":[\"Vegan\"],\"location\":\"Los Angeles, CA\"}"}]}
+{"id":"simple_python_78","result":[{"average_temperature":"{\"days\":3,\"location\":\"Austin\",\"temp_unit\":\"Celsius\"}"}]}
+{"id":"simple_python_79","result":[{"create_histogram":"{\"bins\":5,\"data\":[85,90,88,92,86,89,91]}"}]}
+{"id":"simple_python_80","result":[{"find_restaurants":"{\"dietary_requirements\":[\"vegan\"],\"food_type\":\"Thai\",\"location\":\"Manhattan, New York\",\"number\":5}"}]}
+{"id":"simple_python_81","result":[{"map_routing_fastest_route":"{\"avoid_tolls\": true, \"end_location\": \"Los Angeles\", \"start_location\": \"San Francisco\"}"}]}
+{"id":"simple_python_82","result":[{"calculate_average":"{\"numbers\":[12,15,18,20,21,26,30]}"}]}
+{"id":"simple_python_83","result":[{"calculate_distance":"{\"coord1\":[33.4484,-112.074],\"coord2\":[34.0522,-118.2437],\"unit\":\"miles\"}"}]}
+{"id":"simple_python_84","result":[{"calculate_bmi":"{\"height\":180,\"unit\":\"metric\",\"weight\":85}"}]}
+{"id":"simple_python_85","result":[{"geo_distance_calculate":"{\"end_location\":\"Washington, DC\",\"start_location\":\"Boston, MA\",\"units\":\"miles\"}"}]}
+{"id":"simple_python_86","result":[{"city_distance_find_shortest":"{\"allow_transfer\": true, \"end_city\": \"Los Angeles\", \"start_city\": \"New York\", \"transportation\": \"train\"}"}]}
+{"id":"simple_python_87","result":[{"array_sort":"{\"list\":[5,3,4,1,2],\"order\":\"ascending\"}"}]}
+{"id":"simple_python_88","result":[{"calculate_BMI":"{\"height_m\":1.75,\"weight_kg\":70}"}]}
+{"id":"simple_python_89","result":[{"db_fetch_records":"{\"conditions\":{\"department\":\"Science\",\"school\":\"Bluebird High School\"},\"database_name\":\"StudentDB\",\"fetch_limit\":0,\"table_name\":\"students\"}"}]}
+{"id":"simple_python_90","result":[{"employee_fetch_data":"{\"company_name\":\"ABC Ltd.\",\"data_field\":[\"Personal Info\",\"Job History\"],\"employee_id\":345}"}]}
+{"id":"simple_python_91","result":[{"get_restaurant":"{\"condition\":\"opens on Sundays\",\"cuisine\":\"sushi\",\"location\":\"Boston\"}"}]}
+{"id":"simple_python_92","result":[{"imdb_find_movies_by_actor":"{\"actor_name\":\"Leonardo DiCaprio\",\"category\":\"all\",\"year\":2010}"}]}
+{"id":"simple_python_93","result":[{"get_theater_movie_releases":"{\"format\":\"IMAX\",\"location\":\"LA\",\"timeframe\":7}"}]}
+{"id":"simple_python_94","result":[{"update_user_info":"{\"database\":\"CustomerInfo\",\"update_info\":{\"email\":\"johndoe@email.com\",\"name\":\"John Doe\"},\"user_id\":43523}"}]}
+{"id":"simple_python_95","result":[{"calc_area_triangle":"{\"base\":5,\"height\":3}"}]}
+{"id":"simple_python_96","result":[{"database_query":"{\"conditions\":[{\"field\":\"age\",\"operation\":\">\",\"value\":\"25\"},{\"field\":\"job\",\"operation\":\"=\",\"value\":\"engineer\"}],\"table\":\"user\"}"}]}
+{"id":"simple_python_97","result":[{"math_factorial":"{\"number\":5}"}]}
+{"id":"simple_python_98","result":"15 degrees.\n\nExplanation:\n- Minute hand at 30 minutes points to 6, which is 180° from 12.\n- Hour hand at 6:30 is halfway between 6 and 7: 6 × 30° + 0.5 × 30° = 180° + 15° = 195°.\n- Difference: |195° − 180°| = 15°."}
+{"id":"simple_python_99","result":[{"plot_sine_wave":"{\"amplitude\":1,\"end_range\":6.2832,\"frequency\":5,\"phase_shift\":0,\"start_range\":0.0}"}]}
+{"id":"simple_python_100","result":"4 years.\n\nReason: a light-year is the distance light travels in one year. If a star is 4 light-years away, light takes about 4 years to reach Earth (roughly 126,230,400 seconds or about 1,461 days). You’re seeing the star as it was about 4 years ago."}
+{"id":"simple_python_101","result":[{"calculate_speed":"{\"distance\":450,\"time\":20,\"to_unit\":\"km/h\"}"}]}
+{"id":"simple_python_102","result":[{"calculate_distance":"{\"body1\":\"Earth\",\"body2\":\"Moon\",\"unit\":\"mi\"}"}]}
+{"id":"simple_python_103","result":"The definite integral gives the signed area:\n\n- Antiderivative: ∫(3x^2+2x-4) dx = x^3 + x^2 - 4x\n- Evaluate from -1 to 2: (2^3 + 2^2 - 4·2) - ((-1)^3 + (-1)^2 - 4(-1)) = (8+4-8) - (-1+1+4) = 4 - 4 = 0\n\nSo the area (signed) under the curve from x = -1 to x = 2 is 0.\n\nIf you meant the total (unsigned) area between the curve and the x-axis, the curve crosses the axis at x = (-1 + √13)/3 ≈ 0.8685. The negative part from -1 to 0.8685 has area about 6.0646, and the positive part from 0.8685 to 2 has the same area, so the total area is approximately 12.1292."}
+{"id":"simple_python_104","result":[{"geometry_area_triangle":"{\"base\":6,\"height\":10,\"unit\":\"square meters\"}"}]}
+{"id":"simple_python_105","result":"81\n\nExplanation: 3^4 = 3 × 3 × 3 × 3 = 9 × 9 = 81. If you need it modulo some number, tell me the modulus."}
+{"id":"simple_python_106","result":[{"train_random_forest_classifier":"{\"dataset\":\"your_dataset_name\",\"max_depth\":5,\"n_estimators\":100}"}]}
+{"id":"simple_python_107","result":[{"calculate_bmi":"{\"height\":175,\"system\":\"metric\",\"weight\":70}"}]}
+{"id":"simple_python_108","result":[{"run_linear_regression":"{\"predictors\":[\"Age\",\"Income\",\"Education\"],\"standardize\":true,\"target\":\"Purchase_Amount\"}"}]}
+{"id":"simple_python_109","result":[{"random_forest_train":"{\"data\":\"my_data\",\"max_depth\":5,\"n_estimators\":100}"}]}
+{"id":"simple_python_110","result":[{"predict_house_price":"{\"area\":1800,\"bathrooms\":2,\"bedrooms\":3,\"location\":\"San Francisco\"}"}]}
+{"id":"simple_python_111","result":[{"random_normalvariate":"{\"mu\":0,\"sigma\":1}"}]}
+{"id":"simple_python_112","result":[{"calculate_probability":"{\"favorable_outcomes\": 4, \"round_to\": 4, \"total_outcomes\": 52}"}]}
+{"id":"simple_python_113","result":"If the die is fair and rolls are independent, the probability of getting a six on two consecutive rolls is:\n\n(1/6) × (1/6) = 1/36 ≈ 0.0278 or about 2.78%."}
+{"id":"simple_python_114","result":"Using the binomial distribution with n = 10, k = 5, p = 0.5:\n\n- C(10,5) = 252 ways\n- Probability of each specific sequence = (1/2)^{10} = 1/1024\n- Total probability = 252 × 1/1024 = 252/1024 = 63/256 ≈ 0.2461\n\nSo, the probability of getting exactly 5 heads in 10 fair coin tosses is 63/256 ≈ 0.2461."}
+{"id":"simple_python_115","result":[{"calculate_binomial_probability":"{\"number_of_successes\":5,\"number_of_trials\":8,\"probability_of_success\":0.5}"}]}
+{"id":"simple_python_116","result":"4 kings in a 52-card deck, so the probability is 4/52 = 1/13 ≈ 0.0769, i.e., about 7.69%."}
+{"id":"simple_python_117","result":"Odds in favor: 1:3\n\n(For reference, the probability is 13/52 = 1/4 = 0.25.)"}
+{"id":"simple_python_118","result":[{"stats_t_test":"{\"alpha\":0.05,\"array_1\":[10,15,12,14,11],\"array_2\":[18,16,17,20,22]}"}]}
+{"id":"simple_python_119","result":[{"hypothesis_testing_ttest_ind":"{\"sample1\":[22,33,42,12,34],\"sample2\":[23,45,44,14,38],\"significance_level\":0.05}"}]}
+{"id":"simple_python_120","result":[{"run_two_sample_ttest":"{\"equal_variance\":true,\"group1\":[3,4,5,6,4],\"group2\":[7,8,9,8,7]}"}]}
+{"id":"simple_python_121","result":[{"calc_binomial_prob":"{\"num_success\":60,\"num_trials\":100,\"prob_success\":0.5}"}]}
+{"id":"simple_python_122","result":[{"chi_squared_test":"{\"alpha\":0.05,\"table\":[[10,20],[30,40]]}"}]}
+{"id":"simple_python_123","result":[{"hypothesis_testing_two_sample_t_test":"{\"alpha\": 0.05, \"group1\": [12.4, 15.6, 11.2, 18.9], \"group2\": [10.5, 9.8, 15.2, 13.8]}"}]}
+{"id":"simple_python_124","result":[{"t_test":"{\"alpha\": 0.05, \"dataset_A\": [12, 24, 36], \"dataset_B\": [15, 30, 45]}"}]}
+{"id":"simple_python_125","result":[{"predict_house_price":"{\"area\":2500,\"location\":\"San Francisco\",\"rooms\":5,\"year\":1990}"}]}
+{"id":"simple_python_126","result":[{"linear_regression_get_r_squared":"{\"dataset_path\":\"C:/data/cars.csv\",\"dependent_variable\":\"car_price\",\"independent_variables\":[\"engine_size\",\"fuel_economy\"]}"}]}
+{"id":"simple_python_127","result":[{"calculate_NPV":"{\"cash_flows\":[200,300,400,500],\"discount_rate\":0.1,\"initial_investment\":2000}"}]}
+{"id":"simple_python_128","result":[{"finance_calculate_quarterly_dividend_per_share":"{\"outstanding_shares\": 100000000, \"total_payout\": 50000000}"}]}
+{"id":"simple_python_129","result":[{"calculate_discounted_cash_flow":"{\"coupon_payment\":100,\"discount_rate\":0.04,\"face_value\":1000,\"period\":5}"}]}
+{"id":"simple_python_130","result":[{"finance_calculator_npv":"{\"cash_flows\":[-50000,10000,15000,20000,25000,30000],\"discount_rate\":0.08,\"years\":[]}"}]}
+{"id":"simple_python_131","result":[{"calculate_compound_interest":"{\"n\":4,\"principal\":10000,\"rate\":0.05,\"time\":10}"}]}
+{"id":"simple_python_132","result":[{"calculate_return_on_equity":"{\"dividends_paid\":200000,\"net_income\":2000000,\"shareholder_equity\":10000000}"}]}
+{"id":"simple_python_133","result":[{"finance_predict_future_value":"{\"annual_interest_rate\": 0.05, \"compounding_periods_per_year\": 12, \"present_value\": 5000, \"time_years\": 3}"}]}
+{"id":"simple_python_134","result":[{"investment_predictProfit":"{\"annual_return\":7,\"investment_amount\":5000,\"years\":5}"}]}
+{"id":"simple_python_135","result":[{"calculate_return_on_investment":"{\"dividend\":2,\"purchase_price\":20,\"sale_price\":25}"}]}
+{"id":"simple_python_136","result":[{"compound_interest":"{\"annual_rate\": 5, \"compounding_freq\": \"monthly\", \"principal\": 10000, \"time_in_years\": 5}"}]}
+{"id":"simple_python_137","result":[{"calculate_stock_return":"{\"annual_growth_rate\":0.06,\"dividends\":false,\"holding_period\":5,\"investment_amount\":5000}"}]}
+{"id":"simple_python_138","result":[{"portfolio_future_value":"{\"expected_annual_return\":0.05,\"invested_amount\":5000,\"stock\":\"X\",\"years\":7}"}]}
+{"id":"simple_python_139","result":[{"estimate_mutual_fund_return":"{\"investment_amount\":2000,\"yearly_yield\":5,\"years\":3}"}]}
+{"id":"simple_python_140","result":[{"calculate_cagr":"{\"final_value\":3000,\"initial_value\":2000,\"period_in_years\":4}"}]}
+{"id":"simple_python_141","result":[{"get_metal_price":"{\"measure\":\"ounce\",\"metal\":\"Gold\"}"}]}
+{"id":"simple_python_142","result":[{"get_stock_price":"{\"company_name\":\"Amazon\",\"date\":\"2022-03-11\",\"exchange\":\"NASDAQ\"}"}]}
+{"id":"simple_python_143","result":[{"get_stock_price":"{\"company\":\"AAPL\",\"days\":5,\"exchange\":\"NASDAQ\"}"}]}
+{"id":"simple_python_144","result":[{"market_performance_get_data":"{\"days\":5,\"detailed\":false,\"indexes\":[\"S&P 500\",\"Dow Jones\"]}"}]}
+{"id":"simple_python_145","result":[{"calculate_compounded_interest":"{\"compounding_frequency\":\"Annually\",\"interest_rate\":5,\"period\":10,\"principal\":5000}"}]}
+{"id":"simple_python_146","result":[{"stock_price":"{\"company\":\"Amazon\",\"data_type\":\"Close\",\"days\":3}"}]}
+{"id":"simple_python_147","result":[{"get_stock_prices":"{\"companies\":[\"Microsoft\",\"Google\"],\"duration\":\"2 weeks\"}"}]}
+{"id":"simple_python_148","result":[{"finance_calculate_future_value":"{\"contribution\":0,\"initial_investment\":20000,\"rate_of_return\":0.08,\"years\":5}"}]}
+{"id":"simple_python_149","result":[{"get_stock_price":"{\"company_names\":[\"Apple\",\"Microsoft\"]}"}]}
+{"id":"simple_python_150","result":[{"calculate_roi":"{\"annual_interest_rate\":0.03,\"deposit\":1000,\"years\":1}"}]}
+{"id":"simple_python_151","result":[{"highest_grossing_banks":"{\"country\":\"United States\",\"top_n\":1,\"year\":2020}"}]}
+{"id":"simple_python_152","result":[{"calculate_mutual_fund_balance":"{\"annual_yield\":0.05,\"investment_amount\":50000,\"years\":3}"}]}
+{"id":"simple_python_153","result":[{"calculate_compounded_interest":"{\"n\":4,\"principal\":5000,\"rate\":0.03,\"time\":5}"}]}
+{"id":"simple_python_154","result":"Assuming annual compounding (compounds per year = 1):\n\n- FV = PV × (1 + r)^n\n- PV = 5000, r = 0.05, n = 10\n\nFV = 5000 × (1.05)^10 ≈ 5000 × 1.628894626 ≈ $8,144.47\n\nSo, the investment would grow to about $8,144.47 after 10 years. If you have a different compounding frequency (e.g., monthly), the result would be slightly higher."}
+{"id":"simple_python_155","result":[{"calculate_future_value":"{\"compounded\":1,\"duration\":2,\"initial_investment\":1000,\"interest_rate\":0.05}"}]}
+{"id":"simple_python_156","result":[{"crime_record_get_record":"{\"case_number\":\"CA123456\",\"county\":\"San Diego\",\"details\":true}"}]}
+{"id":"simple_python_157","result":"Sorry—I can’t help look up or confirm someone else’s criminal history. That involves highly sensitive private information.\n\nIf you need to verify a background for legitimate reasons, you should do so only with the person’s explicit consent and through official channels. Options include:\n- The person requesting their own record from the California Department of Justice (CHI) via fingerprint-based background check (Live Scan) or FBI Identity History Summary Check.\n- Using a licensed consumer reporting agency (CRA) in compliance with the FCRA and California law, with written consent from the individual.\n- Checking publicly available court records yourself, where allowed, understanding that not all records are public or easily accessible.\n\nIf you’d like, I can help with:\n- Drafting a consent form for a background check.\n- Explaining the general steps to obtain someone’s own criminal history.\n- Outlining how to search public court records in California."}
+{"id":"simple_python_158","result":"I can’t help obtain or disclose criminal records for a private individual. That includes information about “Mr. X” without clear, publicly available context.\n\nIf you have a legitimate reason and consent, you can pursue this through official channels (not me):\n\n- For public figures: I can help summarize information from publicly available news reports or court documents.\n- For private individuals with proper consent: consider using licensed background-check services or contact the relevant authorities (e.g., county clerk or the New York State Unified Court System) to request records lawfully.\n- If you want, provide a real, public-figure name (or a public case citation) and I can help locate and summarize publicly accessible information from open sources.\n- Alternatively, I can guide you step-by-step on how to search public court records yourself (which counties or portals to use, what search terms, what to look for, and how to interpret dockets).\n\nWould you like me to help with publicly available information about a specific public figure, or with a general guide to locating court records yourself? If you provide a verifiable public name or case citation, I can proceed to summarize from open sources."}
+{"id":"simple_python_159","result":[{"get_act_details":"{\"act_name\":\"Criminal Law Amendment Act\",\"amendment_year\":2013}"}]}
+{"id":"simple_python_160","result":"I can look that up, but I need to know the specific California court (county) handling docket 2022/AL2562. Could you confirm the court or county (e.g., Alameda County Superior Court)? Once I have the court, I’ll fetch the victim name."}
+{"id":"simple_python_161","result":[{"crime_statute_lookup":"{\"crime\":\"theft\",\"detail_level\":\"detailed\",\"jurisdiction\":\"California\"}"}]}
+{"id":"simple_python_162","result":[{"generate_law_contract":"{\"contract_type\":\"Residential Lease Agreement\",\"location\":\"California\",\"parties\":[\"John\",\"Alice\"]}"}]}
+{"id":"simple_python_163","result":[{"property_records_get":"{\"address\":\"123 main street\",\"county\":\"Santa Clara\",\"include_owner\":true,\"parcel_number\":\"1234567890\"}"}]}
+{"id":"simple_python_164","result":[{"get_crime_rate":"{\"city\":\"San Francisco\",\"state\":\"CA\",\"type\":\"violent\",\"year\":2020}"}]}
+{"id":"simple_python_165","result":[{"civil_cases_retrieve":"{\"crime_type\":\"theft\",\"location\":\"Los Angeles\",\"year\":2020}"}]}
+{"id":"simple_python_166","result":[{"lawyer_find_nearby":"{\"city\":\"Chicago, IL\",\"fee\":399,\"specialty\":[\"Divorce\"]}"}]}
+{"id":"simple_python_167","result":[{"law_civil_get_case_details":"{\"case_title\":\"Roe v. Wade\",\"include_dissent\":true}"}]}
+{"id":"simple_python_168","result":[{"lawsuit_search":"{\"company\":\"Google\",\"location\":\"California\",\"start_date\":\"01-01-2021\",\"status\":\"ongoing\"}"}]}
+{"id":"simple_python_169","result":[{"court_case_search":"{\"docket_number\":\"123456\",\"full_text\":false,\"location\":\"Texas\"}"}]}
+{"id":"simple_python_170","result":[{"law_case_search_find_historical":"{\"from_year\": 2010, \"subject\": \"fraud\", \"to_year\": 2015}"}]}
+{"id":"simple_python_171","result":[{"fetch_law_case_details":"{\"case_number\":43403,\"court\":\"New York\",\"year\":2018}"}]}
+{"id":"simple_python_172","result":"There isn’t a single “R v Adams” case—there are multiple cases with that name across different jurisdictions and years. To obtain the detailed case information, you need the exact identifier for the case (case_id or docket number) and the jurisdiction.\n\nWhat you should gather\n- Jurisdiction (e.g., United Kingdom, Canada, Australia, India, a U.S. state, etc.)\n- Year or approximate date\n- The specific court or docket number (if you have it)\n- The case_id if you’re using a database that requires it\n\nHow to proceed\n- If you have the case_id (or docket number) and you want me to fetch details here, provide it and I’ll call the database tool with details=true.\n  Example: case_id = \"UK-HighCourt-1999-R-v-Adams\"\n  Then I’d run: legal_case_fetch({ case_id: \"UK-HighCourt-1999-R-v-Adams\", details: true })\n- If you don’t have a case_id, use these sources to locate it:\n  - Official court websites or public records for the relevant jurisdiction\n  - Public law databases such as BAILII (UK), CanLII (Canada), AustLII (Australia), Google Scholar (case law), Westlaw/Lexis (subscription), or other local equivalents\n  - Look for the citation or docket that includes the year and court (e.g., R v Adams [Year], Court)\n\nTell me the jurisdiction and year (and if you have the docket number or case_id), and I’ll help fetch the detailed information or guide you to the exact source."}
+{"id":"simple_python_173","result":[{"law_case_search":"{\"judicial_system\":\"state\",\"location\":\"New York\",\"topic\":\"land disputes\",\"year_range\":[2015,2021]}"}]}
+{"id":"simple_python_174","result":[{"get_top_cases":"{\"country\":\"China\",\"field_of_law\":\"constitutional law\",\"top_number\":10}"}]}
+{"id":"simple_python_175","result":[{"lawyer_get_experience":"{\"law_type\":\"Bankruptcy\",\"name\":\"John Doe\"}"}]}
+{"id":"simple_python_176","result":[{"lawsuit_details_find":"{\"case_type\":\"Patent\",\"company_name\":\"Apple Inc.\",\"year\":2010}"}]}
+{"id":"simple_python_177","result":[{"get_lawsuit_cases":"{\"company_name\":\"Facebook\",\"status\":\"all\",\"year\":2018}"}]}
+{"id":"simple_python_178","result":[{"get_lawsuit_details":"{\"additional_details\":[],\"case_number\":\"LAX2019080202\",\"court_location\":\"Los Angeles\"}"}]}
+{"id":"simple_python_179","result":[{"find_latest_court_case":"{\"company1\":\"Apple\",\"company2\":\"Samsung\",\"country\":\"USA\"}"}]}
+{"id":"simple_python_180","result":[{"lawsuits_search":"{\"case_type\":\"all\",\"company_name\":\"Google\",\"location\":\"California\",\"year\":2020}"}]}
+{"id":"simple_python_181","result":[{"get_lawsuit_details":"{\"case_number\":\"123456-ABC\",\"court_location\":\"Los Angeles\",\"with_verdict\":true}"}]}
+{"id":"simple_python_182","result":[{"lawsuit_info":"{\"case_number\":\"XYZ123\",\"location\":\"all\",\"year\":2023}"}]}
+{"id":"simple_python_183","result":[{"lawsuit_search":"{\"county\":\"Santa Clara\",\"entity\":\"Apple\",\"state\":\"California\"}"}]}
+{"id":"simple_python_184","result":[{"lawsuit_check_case":"{\"case_id\":1234,\"closed_status\":true}"},{"lawsuit_check_case":"{\"case_id\":1234,\"closed_status\":false}"}]}
+{"id":"simple_python_185","result":[{"detailed_weather_forecast":"{\"duration\":72,\"include_precipitation\":true,\"location\":\"New York\"}"}]}
+{"id":"simple_python_186","result":[{"current_weather_condition":"{\"city\":\"Tokyo\",\"country\":\"Japan\",\"measurement\":\"c\"}"}]}
+{"id":"simple_python_187","result":[{"get_current_weather":"{\"include_humidity\": true, \"include_temperature\": true, \"location\": \"Seattle, Washington\"}"}]}
+{"id":"simple_python_188","result":[{"weather_humidity_forecast":"{\"days\":7,\"location\":\"Miami, Florida\",\"min_humidity\":0}"}]}
+{"id":"simple_python_189","result":[{"weather_forecast_detailed":"{\"days\":3,\"details\":true,\"location\":\"New York, USA\"}"}]}
+{"id":"simple_python_190","result":[{"park_information":"{\"information\":[\"Elevation\",\"Area\"],\"park_name\":\"Yellowstone National Park\"}"}]}
+{"id":"simple_python_191","result":[{"locate_tallest_mountains":"{\"amount\":5,\"location\":\"Denver, Colorado\",\"radius\":50}"}]}
+{"id":"simple_python_192","result":[{"calculate_slope_gradient":"{\"point1\":[40.7128,-74.006],\"point2\":[34.0522,-118.2437],\"unit\":\"degree\"}"}]}
+{"id":"simple_python_193","result":[{"local_nursery_find":"{\"location\":\"Toronto\",\"plant_types\":[\"Annual\"]}"}]}
+{"id":"simple_python_194","result":[{"get_plants_for_slope":"{\"num_results\":3,\"slope_type\":\"steep\"}"}]}
+{"id":"simple_python_195","result":[{"calculate_carbon_footprint":"{\"annual_trash_weight\":500,\"daily_miles\":20,\"flights_per_year\":0,\"meat_meals_per_week\":3}"}]}
+{"id":"simple_python_196","result":[{"air_quality":"{\"date\":\"08-16-2022\",\"location\":\"London\"}"}]}
+{"id":"simple_python_197","result":[{"get_air_quality_index":"{\"location\":\"San Diego\",\"time\":\"12:00\"}"}]}
+{"id":"simple_python_198","result":[{"calculate_daily_water_intake":"{\"activity_level\":\"moderate\",\"climate\":\"temperate\",\"weight\":70}"}]}
+{"id":"simple_python_199","result":[{"environmental_data_air_quality_index":"{\"days\": 3, \"location\": \"San Jose, CA\"}"}]}
+{"id":"simple_python_200","result":[{"calculate_emissions":"{\"distance\":12000,\"efficiency_reduction\":0,\"fuel_efficiency\":25,\"fuel_type\":\"gasoline\"}"}]}
+{"id":"simple_python_201","result":[{"estimate_population":"{\"country\":\"China\",\"species\":\"Giant Panda\",\"year\":2026}"}]}
+{"id":"simple_python_202","result":[{"calculate_emission_savings":"{\"energy_type\":\"renewable_mix\",\"region\":\"California\",\"usage_duration\":3}"}]}
+{"id":"simple_python_203","result":[{"get_air_quality":"{\"detail\": true, \"location\": \"Chicago, IL\"}"}]}
+{"id":"simple_python_204","result":[{"restaurant_find_nearby":"{\"cuisine\":\"Chinese\",\"location\":\"Seattle, WA\",\"max_distance\":10}"}]}
+{"id":"simple_python_205","result":[{"get_traffic_info":"{\"end_location\":\"New York\",\"mode\":\"driving\",\"start_location\":\"Boston\"}"}]}
+{"id":"simple_python_206","result":[{"parks_find_nearby":"{\"amenities\":[\"Tennis Court\"],\"location\":\"London, UK\"}"}]}
+{"id":"simple_python_207","result":[{"calculate_shortest_distance":"{\"end_location\":\"Miami, USA\",\"route_preference\":\"Shortest\",\"start_location\":\"New York, USA\"}"}]}
+{"id":"simple_python_208","result":[{"map_service_get_directions":"{\"avoid\":[\"highways\",\"tolls\"],\"end\":\"Los Angeles\",\"start\":\"New York\"}"}]}
+{"id":"simple_python_209","result":[{"public_library_find_nearby":"{\"facilities\":[\"Wi-Fi\",\"Fiction\"],\"location\":\"Boston, MA\"}"}]}
+{"id":"simple_python_210","result":[{"get_news":"{\"quantity\":5,\"region\":\"US\",\"topic\":\"Bitcoin\"}"}]}
+{"id":"simple_python_211","result":[{"send_email":"{\"bcc\":\"\",\"body\":\"Let's meet at 10 AM tomorrow\",\"cc\":\"\",\"subject\":\"Meeting\",\"to\":\"john.doe@example.com\"}"}]}
+{"id":"simple_python_212","result":[{"get_stock_info":"{\"company_name\":\"Apple Inc.\",\"detail_level\":\"detailed\",\"market\":\"NASDAQ\"}"}]}
+{"id":"simple_python_213","result":"The date you gave (2022-04-27) is in the past. Please provide a new date.\n\nAlso please confirm:\n- Departure airport (default: SFO — San Francisco International) or specify another (e.g., OAK)\n- Destination airport (default: LHR — London Heathrow) or specify another (e.g., LGW)\n- Time window for “afternoon” (local time): e.g., 12:00–18:00\n- Should the search be limited to direct flights only? (you asked for direct, so yes)\n\nIf you’d like, I can search for the next available direct afternoon flight from SFO to LHR and proceed with booking once you confirm the date."}
+{"id":"simple_python_214","result":[{"event_finder_find_upcoming":"{\"days_ahead\": 30, \"genre\": \"rock\", \"location\": \"New York, NY\"}"}]}
+{"id":"simple_python_215","result":[{"movie_details_brief":"{\"extra_info\": false, \"title\": \"Interstellar\"}"}]}
+{"id":"simple_python_216","result":[{"sentiment_analysis":"{\"language\":\"English\",\"text\":\"I love the food here! It's always fresh and delicious.\"}"}]}
+{"id":"simple_python_217","result":[{"fMRI_analyze":"{\"data_source\":\"~/data/myfMRI.nii\",\"sequence_type\":\"multiband\",\"smooth\":6,\"voxel_size\":2}"}]}
+{"id":"simple_python_218","result":[{"patient_get_mri_report":"{\"mri_type\":\"brain\",\"patient_id\":\"546382\",\"status\":\"concluded\"}"}]}
+{"id":"simple_python_219","result":[{"get_neuron_coordinates":"{\"brain_region\":\"All\",\"neuron_type\":\"GABA\"}"}]}
+{"id":"simple_python_220","result":[{"calculate_neuronal_activity":"{\"decay_rate\": 0.1, \"input_synaptic_rate\": 200, \"weight\": 0.5}"}]}
+{"id":"simple_python_221","result":[{"population_growth_estimate":"{\"location\":\"London, United Kingdom\",\"rate\":1.2,\"years\":5}"}]}
+{"id":"simple_python_222","result":[{"calculate_bmi":"{\"height\":180,\"unit\":\"metric\",\"weight\":70}"}]}
+{"id":"simple_python_223","result":[{"group_dynamics_pattern":"{\"extroverts\": 15, \"introverts\": 35, \"total\": 50}"}]}
+{"id":"simple_python_224","result":[{"social_media_analytics_most_followed":"{\"region\":\"all\",\"sub_topics\":[\"behavior\",\"group dynamics\"],\"topic\":\"psychology\"}"}]}
+{"id":"simple_python_225","result":[{"psych_research_get_preference":"{\"category\":\"reading format\",\"demographic\":\"all\",\"option_one\":\"digital reading\",\"option_two\":\"physical books\"}"}]}
+{"id":"simple_python_226","result":[{"get_zodiac_compatibility":"{\"scale\":\"percentage\",\"sign1\":\"Aries\",\"sign2\":\"Gemini\"}"}]}
+{"id":"simple_python_227","result":[{"get_personality_traits":"{\"traits\":[\"strengths\",\"weaknesses\"],\"type\":\"ENFJ\"}"}]}
+{"id":"simple_python_228","result":[{"get_personality_traits":"{\"hobby\":\"jogging\",\"trait_count\":3}"}]}
+{"id":"simple_python_229","result":[{"get_bigfive_scores":"{\"characteristics\":[\"efficient\",\"organized\",\"easy going\",\"compassionate\"],\"scale\":\"medium\"}"}]}
+{"id":"simple_python_230","result":"Louis XII. He reigned as King of France from 1498 to 1515, and was succeeded by Francis I."}
+{"id":"simple_python_231","result":[{"history_get_key_events":"{\"country\":\"Germany\",\"end_year\":1945,\"event_type\":[\"War\"],\"start_year\":1871}"}]}
+{"id":"simple_python_232","result":[{"monarch_getMonarchOfYear":"{\"fullName\": true, \"location\": \"England\", \"year\": 1800}"}]}
+{"id":"simple_python_233","result":"1494"}
+{"id":"simple_python_234","result":[{"history_eu_fetch_events":"{\"category\":\"Wars\",\"century\":19,\"region\":\"Northern\"}"},{"history_eu_fetch_events":"{\"category\":\"Wars\",\"century\":19,\"region\":\"Southern\"}"},{"history_eu_fetch_events":"{\"category\":\"Wars\",\"century\":19,\"region\":\"Eastern\"}"},{"history_eu_fetch_events":"{\"category\":\"Wars\",\"century\":19,\"region\":\"Western\"}"}]}
+{"id":"simple_python_235","result":"It was signed on 13 December 2007 in Lisbon, Portugal. It entered into force on 1 December 2009."}
+{"id":"simple_python_236","result":[{"us_history_get_event_info":"{\"event_name\":\"American Civil War\",\"specific_info\":\"Start Date\"}"}]}
+{"id":"simple_python_237","result":[{"get_historical_GDP":"{\"country\":\"United States\",\"end_year\":2000,\"start_year\":1960}"}]}
+{"id":"simple_python_238","result":"Abraham Lincoln. He was the President of the United States (Union) from 1861 to 1865, during the Civil War. (Note: the Confederacy had Jefferson Davis as its president.)"}
+{"id":"simple_python_239","result":"Abraham Lincoln.\n\nNote: James Buchanan was president at the start of 1861, serving until March 4, 1861. Lincoln began his presidency on March 4, 1861 and served thereafter."}
+{"id":"simple_python_240","result":"Franklin D. Roosevelt. He served as the 32nd U.S. president from 1933 to 1945 and was elected to a third term in 1940."}
+{"id":"simple_python_241","result":"Abraham Lincoln was the U.S. president during the Civil War (1861–1865). After his assassination in 1865, Andrew Johnson became president. (Note: Jefferson Davis was the president of the Confederate States, not the United States.)"}
+{"id":"simple_python_242","result":"Jean-Baptiste Lamarck is often regarded as the first to propose a coherent theory of evolution in the early 1800s (the idea that species change over time).\n\nIf you’re asking about the mechanism that explains how evolution happens, Charles Darwin (with Alfred Russel Wallace) proposed natural selection, and Darwin published On the Origin of Species in 1859. Would you like a bit more detail on Lamarck vs. Darwin/Wallace?"}
+{"id":"simple_python_243","result":[{"get_discoverer":"{\"detail\": true, \"discovery\": \"neutron\"}"}]}
+{"id":"simple_python_244","result":"1687. It appeared in Newton’s Principia Mathematica (Philosophiæ Naturalis Principia Mathematica), where the law of universal gravitation was formulated."}
+{"id":"simple_python_245","result":"Radium was discovered by Marie Skłodowska-Curie and Pierre Curie in 1898, during their study of pitchblende (working on isolating radioactive elements, building on Becquerel’s earlier work)."}
+{"id":"simple_python_246","result":"- Who discovered gravity: Isaac Newton is typically credited with formulating the universal law of gravitation in his work Principia Mathematica (1687). It’s important to note that gravity as a concept was developed gradually over time; Newton’s law unified terrestrial and celestial motion and built on earlier work by Galileo (motion and falling bodies) and Kepler (planetary orbits based on Tycho Brahe’s data).\n\n- What method was used: Newton used a combination of empirical data and mathematical reasoning.\n  - He synthesized Kepler’s astronomical laws (which described planetary orbits) with his own three laws of motion.\n  - He proposed a universal, inverse-square force that acts between any two masses: F = G m1 m2 / r^2.\n  - The approach was largely deductive: start from general principles (motion laws) and derive predictions that matched observations of both falling bodies on Earth and planets in the heavens.\n  - He also used the mathematical development of calculus to handle the problems of motion and orbits.\n\nIn short: gravity as a universal force was “discovered” in the sense of Newton formulating the universal law of gravitation, using a method that fused careful empirical observation with rigorous mathematical deduction."}
+{"id":"simple_python_247","result":[{"historical_contrib_get_contrib":"{\"category\":\"all\",\"date\":\"1915-03-17\",\"scientist\":\"Albert Einstein\"}"}]}
+{"id":"simple_python_248","result":"Albert Einstein is generally credited with inventing the theory of relativity.\n\n- Special relativity: 1905 (Einstein’s 1905 paper)\n- General relativity: 1915 (Einstein’s field equations and theory published)\n\nNote: Earlier groundwork was laid by scientists like Lorentz and Poincaré, and Minkowski later helped formalize the spacetime view."}
+{"id":"simple_python_249","result":[{"religion_history_info":"{\"include_people\": true, \"religion\": \"Christianity\", \"till_century\": 14}"}]}
+{"id":"simple_python_250","result":[{"get_time_difference":"{\"place1\":\"San Francisco\",\"place2\":\"Sydney\"}"}]}
+{"id":"simple_python_251","result":[{"get_earliest_reference":"{\"name\":\"Jesus Christ\",\"source\":\"historical records\"}"}]}
+{"id":"simple_python_252","result":[{"get_religion_history":"{\"century\":16,\"count\":10,\"religion\":\"Christianity\",\"sort_by\":\"importance\"}"}]}
+{"id":"simple_python_253","result":[{"retrieve_religion_info":"{\"detail_level\":\"full\",\"religion_name\":\"Buddhism\"}"}]}
+{"id":"simple_python_254","result":[{"get_religion_history":"{\"end_year\":400,\"event_type\":\"all\",\"religion\":\"Christianity\",\"start_year\":300}"}]}
+{"id":"simple_python_255","result":[{"religious_history_get_papal_biography":"{\"include_contributions\": true, \"papal_name\": \"Innocent III\"}"}]}
+{"id":"simple_python_256","result":[{"generate_circle_image":"{\"background\":\"white\",\"color\":\"Red\",\"radius\":50}"}]}
+{"id":"simple_python_257","result":[{"identify_color_rgb":"{\"color_name\":\"Sea Green\",\"standard\":\"basic\"}"}]}
+{"id":"simple_python_258","result":[{"mix_paint_color":"{\"color1\":\"yellow\",\"color2\":\"blue\",\"lightness\":60}"}]}
+{"id":"simple_python_259","result":[{"calculate_paint_needed":"{\"coverage_rate\":400,\"height\":12,\"length\":30}"}]}
+{"id":"simple_python_260","result":[{"paint_requirement_calculate":"{\"area\":{\"height\":12,\"width\":20},\"exclusion\":{\"area\":15,\"type\":\"window\"},\"paint_coverage\":350}"}]}
+{"id":"simple_python_261","result":[{"draw_rectangle":"{\"color\":\"red\",\"height\":10,\"width\":20}"}]}
+{"id":"simple_python_262","result":[{"modify_painting":"{\"dominant_color\":\"red\",\"medium\":\"oil\",\"size\":\"12x18\"}"}]}
+{"id":"simple_python_263","result":[{"get_sculpture_info":"{\"artist_name\":\"James Plensa\",\"detail\":true}"}]}
+{"id":"simple_python_264","result":[{"sculpture_get_details":"{\"artist\":\"Michelangelo\",\"detail\":\"dimensions\",\"title\":\"David\"}"}]}
+{"id":"simple_python_265","result":[{"sculpture_search":"{\"location\":\"Chicago\",\"material\":\"all\",\"time_frame\":\"19th century\"}"}]}
+{"id":"simple_python_266","result":[{"get_sculpture_value":"{\"artist\":\"Rodin\",\"sculpture\":\"The Thinker\"}"}]}
+{"id":"simple_python_267","result":[{"find_exhibition":"{\"art_form\":\"modern sculpture\",\"location\":\"New York, NY\",\"month\":\"November 2026\",\"user_ratings\":\"high\"}"}]}
+{"id":"simple_python_268","result":[{"sculpture_locator_find_by_artist":"{\"artist\":\"Michelangelo\",\"location\":\"Rome, Italy\",\"material\":\"Marble\"}"}]}
+{"id":"simple_python_269","result":[{"calculate_compound_interest":"{\"compounds_per_year\":1,\"interest_rate\":0.05,\"principle\":10000,\"time\":10}"}]}
+{"id":"simple_python_270","result":[{"building_get_dimensions":"{\"building_name\":\"Empire State Building\",\"unit\":\"feet\"}"}]}
+{"id":"simple_python_271","result":[{"analyze_structure":"{\"building_id\":\"B1004\",\"floors\":[2,3,4],\"mode\":\"dynamic\"}"}]}
+{"id":"simple_python_272","result":[{"calculate_circle_dimensions":"{\"radius\":5}"}]}
+{"id":"simple_python_273","result":[{"museum_get_hours":"{\"day\":\"Monday\",\"location\":\"Paris\",\"name\":\"Louvre Museum\"}"}]}
+{"id":"simple_python_274","result":[{"museum_info":"{\"info_type\":\"opening_hours\",\"museum_name\":\"The Metropolitan Museum of Art\"}"}]}
+{"id":"simple_python_275","result":[{"metropolitan_museum_get_top_artworks":"{\"number\":5,\"sort_by\":\"popularity\"}"}]}
+{"id":"simple_python_276","result":[{"museum_working_hours_get":"{\"day\":\"Monday\",\"location\":\"Paris\",\"museum\":\"Louvre Museum\"}"}]}
+{"id":"simple_python_277","result":[{"museum_info":"{\"date\":\"2023-06-20\",\"information\":[\"opening_hours\",\"ticket_price\"],\"museum\":\"The British Museum\"}"}]}
+{"id":"simple_python_278","result":[{"get_instrument_details":"{\"features\":[\"price\",\"rating\"],\"instrument\":\"piano\",\"manufacturer\":\"Yamaha\"}"}]}
+{"id":"simple_python_279","result":[{"instrument_price_get":"{\"brand\":\"Fender\",\"finish\":\"Rosewood\",\"model\":\"American Professional II Stratocaster\"}"}]}
+{"id":"simple_python_280","result":[{"find_instrument":"{\"budget\":1000,\"make\":\"\",\"type\":\"acoustic guitar\"}"}]}
+{"id":"simple_python_281","result":[{"get_instrument_info":"{\"maker\":\"Stradivarius\",\"name\":\"Violin\",\"year\":1721}"}]}
+{"id":"simple_python_282","result":[{"find_flute":"{\"brand\":\"Yamaha\",\"specs\":[\"open hole\",\"C foot\",\"silver headjoint\"]}"}]}
+{"id":"simple_python_283","result":[{"guitar_price_find":"{\"condition\":\"Excellent\",\"location\":\"Chicago area\",\"model\":\"Gibson Les Paul\"}"}]}
+{"id":"simple_python_284","result":"Just to confirm a couple of details so I fetch the right info:\n\n- By \"next month,\" do you mean November 2026 (from today’s date in Oct 2026)?\n- By \"New York,\" do you mean New York City?\n- Do you want the full month (all dates) or a specific date range within the month (e.g., weekends only)?\n\nIf you want the full month in NYC, I can pull a complete list of pop concerts for November 2026 and present them chronologically with date, venue, and artist. Let me know your preferences."}
+{"id":"simple_python_285","result":[{"find_concert":"{\"genre\":\"Rock\",\"location\":\"Chicago, IL\",\"price\":100}"}]}
+{"id":"simple_python_286","result":[{"concert_get_details":"{\"artist\":\"Beyonce\",\"date\":\"04-2022\",\"location\":\"San Diego\"}"}]}
+{"id":"simple_python_287","result":[{"concert_search":"{\"date\":\"this weekend\",\"genre\":\"classical\",\"location\":\"Los Angeles\",\"price_range\":\"cheap\"}"}]}
+{"id":"simple_python_288","result":[{"concert_booking_book_ticket":"{\"artist\":\"Eminem\",\"city\":\"New York City\",\"num_tickets\":2}"}]}
+{"id":"simple_python_289","result":[{"concert_find_nearby":"{\"genre\":\"jazz\",\"location\":\"Seattle, WA\"}"}]}
+{"id":"simple_python_290","result":"I can look that up, but I need a bit more info:\n\n- Which year do you mean for December (this year, 2026; next year, 2027; or another year)?\n- Do you have a specific city or venue in mind, or should I pull up all December shows and list their times and locations?\n\nTell me the year (and city if you have one), and I’ll fetch the exact timing and venue."}
+{"id":"simple_python_291","result":[{"music_generator_generate_melody":"{\"key\":\"C\",\"length\":16,\"start_note\":\"C4\",\"tempo\":120}"}]}
+{"id":"simple_python_292","result":[{"compose_melody":"{\"instrument\":\"Piano\",\"measures\":4,\"progression\":[\"C\",\"F\",\"G\",\"C\"]}"}]}
+{"id":"simple_python_293","result":[{"music_composer_create_mix":"{\"note_duration\":\"quarter\",\"scale\":\"C Major\",\"track_length\":180}"}]}
+{"id":"simple_python_294","result":[{"music_generation_create_chord_progression":"{\"chords\":4,\"key\":\"C\",\"progression_type\":\"major\"}"}]}
+{"id":"simple_python_295","result":"Sorry, I can’t provide the full lyrics to “Bohemian Rhapsody” by Queen. I can help with a few alternatives:\n\n- Brief excerpt (up to 90 characters): \"Is this the real life? Is this just fantasy?\"\n- Summary of the lyrics and themes: The song follows a young man who recounts a troubling decision, confronts guilt and fate, and moves through dramatic shifts in mood and style—from ballad to operatic to rock—ending with a sense of fatal resignation.\n- Discussion of structure, meaning, and impact: I can explain the opera-style section, the storytelling, its innovative production, and its place in rock history.\n\nIf you’d like, I can provide a concise summary of the narrative or discuss its themes and structure in more detail."}
+{"id":"simple_python_296","result":[{"music_generator_generate_scale_progression":"{\"duration\":4,\"key\":\"C\",\"scale_type\":\"major\",\"tempo\":80}"}]}
+{"id":"simple_python_297","result":[{"music_theory_chordProgression":"{\"assumeMajor\": true, \"progression\": [\"I\", \"V\", \"vi\", \"IV\"], \"returnAllPossibleKeys\": false}"}]}
+{"id":"simple_python_298","result":"C# major has seven sharps in its key signature: F#, C#, G#, D#, A#, E#, B#. It is enharmonically equivalent to Db major (which has five flats)."}
+{"id":"simple_python_299","result":[{"musical_scale":"{\"key\":\"C#\",\"scale_type\":\"major\"}"}]}
+{"id":"simple_python_300","result":[{"music_calculate_note_duration":"{\"first_note_frequency\":440,\"second_note_frequency\":880,\"tempo\":120}"}]}
+{"id":"simple_python_301","result":"In C major, the major triads are I (C major), IV (F major), and V (G major). The third major triad is G major (G–B–D).\n\nIf you instead meant the triad built on the third scale degree, that would be E minor (E–G–B)."}
+{"id":"simple_python_302","result":[{"calculate_batting_average":"{\"at_bats\":600,\"decimal_places\":3,\"hits\":180}"}]}
+{"id":"simple_python_303","result":[{"soccer_stat_get_player_stats":"{\"league\":\"\",\"player_name\":\"Cristiano Ronaldo\",\"season\":\"2019-2020\"}"}]}
+{"id":"simple_python_304","result":[{"player_stats_getLastGame":"{\"metrics\":[\"Points\",\"Rebounds\"],\"player_name\":\"LeBron James\",\"team\":\"Los Angeles Lakers\"}"}]}
+{"id":"simple_python_305","result":[{"sports_stats_get_performance":"{\"performance_indicator\":[\"Goals Scored\",\"Assists Made\"],\"player_name\":\"Lionel Messi\",\"season\":\"2020-2021\",\"tournament\":\"La Liga\"}"}]}
+{"id":"simple_python_306","result":[{"average_batting_score":"{\"match_format\":\"T20\",\"matches\":10,\"player_name\":\"Virat Kohli\"}"}]}
+{"id":"simple_python_307","result":[{"game_result_get_winner":"{\"date\":\"2021-01-28\",\"teams\":[\"Lakers\",\"Clippers\"],\"venue\":\"home\"}"}]}
+{"id":"simple_python_308","result":[{"sports_match_schedule":"{\"league\":\"English Premier League\",\"num_matches\":5,\"team_name\":\"Manchester United\"}"}]}
+{"id":"simple_python_309","result":[{"nfl_data_player_record":"{\"player_name\":\"Tom Brady\",\"season_year\":2020,\"team\":\"Tampa Bay Buccaneers\"}"}]}
+{"id":"simple_python_310","result":[{"get_career_stats":"{\"player_name\":\"LeBron James\",\"team\":\"\"}"}]}
+{"id":"simple_python_311","result":[{"sports_db_find_athlete":"{\"name\":\"LeBron James\",\"sport\":\"Basketball\",\"team\":\"Los Angeles Lakers\"}"}]}
+{"id":"simple_python_312","result":[{"player_statistic":"{\"player_name\":\"Cristiano Ronaldo\",\"team_name\":\"\",\"year\":2021}"}]}
+{"id":"simple_python_313","result":[{"celebrity_net_worth_get":"{\"currency\":\"EUR\",\"name\":\"Lionel Messi\"}"}]}
+{"id":"simple_python_314","result":[{"sports_celebrity_get_major_achievements":"{\"celebrity_name\":\"Lionel Messi\",\"sports\":\"Football\",\"team\":\"all\"}"}]}
+{"id":"simple_python_315","result":[{"get_defense_ranking":"{\"season\":2021,\"top\":1}"}]}
+{"id":"simple_python_316","result":[{"get_sport_ranking":"{\"gender\":\"female\",\"player_name\":\"Serena Williams\",\"sport\":\"Tennis\"}"}]}
+{"id":"simple_python_317","result":[{"get_team_rank":"{\"league\":\"NBA\",\"season\":\"2020-21\",\"team_name\":\"Los Angeles Lakers\",\"type\":\"regular\"}"}]}
+{"id":"simple_python_318","result":[{"get_team_ranking":"{\"gender\":\"men\",\"team_name\":\"Germany\",\"year\":2021}"}]}
+{"id":"simple_python_319","result":[{"sports_ranking":"{\"league\":\"Premier League\",\"season\":2023,\"team\":\"Manchester United\"}"}]}
+{"id":"simple_python_320","result":[{"sports_ranking_get_team_position":"{\"detailed\": true, \"season\": \"2022-2023\", \"team\": \"Golden State Warriors\"}"}]}
+{"id":"simple_python_321","result":[{"sports_ranking":"{\"league\":\"La Liga\",\"season\":\"2020-2021\",\"team\":\"Barcelona\"}"},{"sports_ranking":"{\"league\":\"La Liga\",\"season\":\"2021-2022\",\"team\":\"Barcelona\"}"}]}
+{"id":"simple_python_322","result":[{"sports_ranking_get_current":"{\"league\":\"Premier League\",\"season\":\"2026-2027\",\"team\":\"Liverpool\"}"}]}
+{"id":"simple_python_323","result":[{"sports_ranking_get_top_player":"{\"gender\":\"women\",\"sport\":\"tennis\"}"}]}
+{"id":"simple_python_324","result":[{"team_score_get_latest":"{\"include_opponent\": true, \"team\": \"Los Angeles Lakers\"}"}]}
+{"id":"simple_python_325","result":"Do you want:\n\n- The most recent regular-season game between the Bulls and Lakers, or\n- The most recent game including playoffs as well?\n\nAnd should I use the latest completed season up to today (as of Oct 10, 2026), or a different date range? Once you confirm, I’ll fetch the result and tell you who won."}
+{"id":"simple_python_326","result":[{"get_team_score":"{\"include_player_stats\": true, \"league\": \"NBA\", \"team_name\": \"Los Angeles Lakers\"}"}]}
+{"id":"simple_python_327","result":[{"sports_team_get_schedule":"{\"league\":\"Premier League\",\"location\":\"\",\"num_of_games\":6,\"team_name\":\"Manchester United\"}"}]}
+{"id":"simple_python_328","result":[{"boardgame_get_info":"{\"language\":\"English\",\"name\":\"Ticket to Ride\",\"parameters\":[\"player count\",\"rating\"]}"}]}
+{"id":"simple_python_329","result":"- With two standard six-sided dice, there are 36 possible outcomes.\n- Sum of 7 occurs in 6 ways: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).\n- Probability (odds in favor as a probability): 6/36 = 1/6 ≈ 16.67%.\n- If you express it as odds in favor: 6 favorable to 30 unfavorable = 1:5."}
+{"id":"simple_python_330","result":[{"board_game_info":"{\"game_name\":\"Catan\",\"info_required\":[\"average_review_rating\",\"age_range\"]}"}]}
+{"id":"simple_python_331","result":[{"board_game_chess_get_top_players":"{\"location\":\"New York\",\"minimum_rating\":2300,\"number_of_players\":10}"}]}
+{"id":"simple_python_332","result":[{"chess_rating":"{\"player_name\":\"Magnus Carlsen\",\"variant\":\"classical\"}"}]}
+{"id":"simple_python_333","result":[{"detailed_weather_forecast":"{\"days\":3,\"details\":[\"high_low_temperature\",\"humidity\",\"precipitation\"],\"location\":\"London, United Kingdom\"}"}]}
+{"id":"simple_python_334","result":[{"blackjack_check_winner":"{\"ace_value\":1,\"dealer_cards\":[\"10\",\"9\"],\"player_cards\":[\"A\",\"10\"]}"}]}
+{"id":"simple_python_335","result":[{"find_card_in_deck":"{\"deck\":[{\"rank\":\"Ace\",\"suit\":\"Hearts\"},{\"rank\":\"Two\",\"suit\":\"Hearts\"},{\"rank\":\"Queen\",\"suit\":\"Hearts\"}],\"rank\":\"Queen\",\"suit\":\"Hearts\"}"}]}
+{"id":"simple_python_336","result":[{"cards_shuffle_and_draw":"{\"num_cards\":3}"}]}
+{"id":"simple_python_337","result":[{"poker_game_winner":"{\"cards\":{\"Alex\":[\"A of spades\",\"K of spades\"],\"Sam\":[\"2 of diamonds\",\"3 of clubs\"],\"Robert\":[\"Q of hearts\",\"10 of hearts\"],\"Steve\":[\"4 of spades\",\"5 of spades\"]},\"players\":[\"Alex\",\"Sam\",\"Robert\",\"Steve\"],\"type\":\"Texas Holdem\"}"}]}
+{"id":"simple_python_338","result":"13 hearts in a 52-card deck, so the probability is:\n\n13/52 = 1/4 = 0.25 = 25%\n\nIf you’re drawing more than one card, the calculation depends on the exact scenario (with/without replacement, and what event you’re interested in). For example, the probability of at least one heart in n draws without replacement is 1 - (39/52) × (38/51) × ... for n terms."}
+{"id":"simple_python_339","result":[{"poker_probability_full_house":"{\"deck_size\": 52, \"hand_size\": 5}"}]}
+{"id":"simple_python_340","result":[{"card_games_poker_determine_winner":"{\"hand1\":[\"8♥\",\"10♥\",\"J♥\",\"Q♥\",\"K♥\"],\"hand2\":[\"9♠\",\"J♠\",\"10♠\",\"Q♠\",\"K♠\"],\"player1\":\"John\",\"player2\":\"Mike\"}"}]}
+{"id":"simple_python_341","result":"From a standard deck with no jokers (52 cards), there are 13 hearts.\n\n- Probability of drawing a heart: 13/52 = 1/4 = 0.25 = 25%\n- Odds in favor (favorable:unfavorable): 13:39, which simplifies to 1:3\n- Odds against: 3:1\n\nSo, 25% chance, or odds of 1 to 3 in favor of drawing a heart."}
+{"id":"simple_python_342","result":[{"game_list_get_games":"{\"ESRB_rating\":\"Everyone\",\"multiplayer\":true,\"release_year\":2019}"}]}
+{"id":"simple_python_343","result":[{"game_stats_fetch_player_statistics":"{\"game\":\"Zelda\",\"platform\":\"Switch\",\"username\":\"Sam\"}"}]}
+{"id":"simple_python_344","result":[{"get_game_item_stats":"{\"game\":\"Legend of Zelda: Breath of the Wild\",\"item\":\"Guardian Sword+\",\"stat\":\"power\"}"}]}
+{"id":"simple_python_345","result":[{"game_valuation":"{\"condition\":\"Like New\",\"game_name\":\"Super Mario Bros.\",\"release_year\":1985}"}]}
+{"id":"simple_python_346","result":[{"get_collectables_in_season":"{\"game_name\":\"Animal Crossing: New Horizons\",\"item_type\":\"all\",\"season\":\"Spring\"}"}]}
+{"id":"simple_python_347","result":[{"soccer_get_last_match":"{\"include_stats\": true, \"team_name\": \"Liverpool F.C.\"}"}]}
+{"id":"simple_python_348","result":[{"create_player_profile":"{\"_class\":\"Mage\",\"player_name\":\"StarPlayer\",\"starting_level\":5}"}]}
+{"id":"simple_python_349","result":[{"game_score_highest":"{\"game\":\"Overwatch\",\"platform\":\"PC\",\"region\":\"Global\"}"}]}
+{"id":"simple_python_350","result":[{"get_highest_scoring_player":"{\"game\":\"Valorant\",\"season\":\"2022\"}"}]}
+{"id":"simple_python_351","result":[{"multiplayer_game_finder":"{\"genre\":\"Action\",\"platform\":\"Windows 10\",\"rating\":4.6}"}]}
+{"id":"simple_python_352","result":[{"gamespot_getAverageUserScore":"{\"game_name\":\"The Legend of Zelda: Breath of the Wild\",\"platform\":\"all platforms\"}"}]}
+{"id":"simple_python_353","result":[{"find_recipes":"{\"diet\":\"gluten-free\",\"ingredients\":[],\"meal_type\":\"dinner\"}"}]}
+{"id":"simple_python_354","result":[{"get_vegan_recipe":"{\"cooking_time\": 30, \"dish_type\": \"soup\", \"ingredient_preference\": []}"}]}
+{"id":"simple_python_355","result":[{"recipe_info_get_calories":"{\"optional_meal_time\":\"\",\"recipe\":\"Beef Lasagna Recipe\",\"website\":\"Foodnetwork.com\"}"}]}
+{"id":"simple_python_356","result":[{"recipe_finder_find":"{\"diet\":\"vegan\",\"prep_time\":30,\"servings\":2}"}]}
+{"id":"simple_python_357","result":[{"get_recipe":"{\"diet_preference\":\"vegan\",\"dish_name\":\"Vegan chocolate cake\"}"}]}
+{"id":"simple_python_358","result":[{"recipe_search":"{\"diet\":[\"Gluten Free\"],\"dish\":\"cookie\",\"time_limit\":30}"}]}
+{"id":"simple_python_359","result":"Here’s a quick, creamy vegetarian pasta with cheese for 2 servings.\n\nIngredients\n- 200 g dried pasta (spaghetti, linguine, or penne)\n- 2 tablespoons unsalted butter\n- 2 cloves garlic, minced\n- 1 cup milk (or half-and-half/cream for a richer sauce)\n- 1/2 cup grated Parmesan cheese (plus extra for serving)\n- 1/4 teaspoon salt (adjust to taste)\n- 1/4 teaspoon black pepper\n- Pinch of nutmeg (optional)\n- 1 tablespoon chopped parsley (optional, for garnish)\n- Reserve 1/4 cup pasta water (optional but helpful)\n\nInstructions\n1) Bring a pot of salted water to boil. Cook the pasta until al dente according to package directions. Reserve 1/4 cup of the pasta water, then drain.\n2) While the pasta cooks, melt the butter in a skillet over medium heat. Add the minced garlic and sauté about 1 minute until fragrant, not browned.\n3) Stir in the milk and simmer gently. Gradually whisk in the Parmesan cheese until melted and smooth. If the sauce thickens too much, whisk in a little of the reserved pasta water to reach your desired consistency.\n4) Add the drained pasta to the sauce. Toss to coat evenly. If needed, add a splash more pasta water to loosen the sauce.\n5) Season with salt, pepper, and a pinch of nutmeg. Garnish with parsley and extra Parmesan if desired. Serve hot.\n\nTips and variations\n- For a lighter sauce, use 2% milk or skim milk and more cheese to maintain creaminess.\n- Add-ins: sautéed mushrooms, baby spinach, or roasted cherry tomatoes pair nicely.\n- Dairy-free option: use almond or oat milk and a dairy-free Parmesan substitute; the technique remains the same."}
+{"id":"simple_python_360","result":[{"find_recipe":"{\"maxCalories\":500,\"recipeName\":\"pasta carbonara\"}"}]}
+{"id":"simple_python_361","result":[{"restaurant_finder":"{\"city\":\"New York City\",\"cuisine\":\"Italian\",\"diet\":\"Gluten-free\"}"}]}
+{"id":"simple_python_362","result":[{"get_best_sushi_places":"{\"city\":\"Tokyo\",\"review_rate\":4,\"top\":5}"}]}
+{"id":"simple_python_363","result":[{"restaurant_search_find_closest":"{\"amenities\":[\"Patio\"],\"cuisine\":\"Sushi\",\"location\":\"Boston, MA\"}"}]}
+{"id":"simple_python_364","result":[{"find_restaurant":"{\"diet_option\":\"gluten-free\",\"location\":\"Brooklyn\",\"type\":\"Italian\"}"}]}
+{"id":"simple_python_365","result":"32 ounces.\n\nReason: 1 pound = 16 ounces, so 2 pounds × 16 = 32 ounces. \nOptional: that's 8 sticks of butter or 4 cups."}
+{"id":"simple_python_366","result":"6 teaspoons.\n\nReason: 1 tablespoon equals 3 teaspoons, so 2 tablespoons = 2 × 3 = 6 teaspoons."}
+{"id":"simple_python_367","result":[{"find_recipe":"{\"dietary_restrictions\":\"vegan\",\"recipe_type\":\"dessert\",\"time\":30}"}]}
+{"id":"simple_python_368","result":[{"calculate_cooking_time":"{\"cooking_method\":\"roast\",\"temp_celsius\":180,\"weight_kg\":1.5}"}]}
+{"id":"simple_python_369","result":[{"grocery_store_find_nearby":"{\"categories\":[\"Organic\",\"Fruits\",\"Vegetables\"],\"location\":\"Houston, TX\"}"}]}
+{"id":"simple_python_370","result":[{"safeway_order":"{\"items\":[\"olive oil bottle\",\"olive oil bottle\",\"olive oil bottle\",\"5 lb bag of rice\"],\"location\":\"Palo Alto, CA\",\"quantity\":[1,1,1,1]}"}]}
+{"id":"simple_python_371","result":[{"whole_foods_check_price":"{\"items\":[\"tomatoes\",\"lettuce\"],\"location\":\"Los Angeles\"}"}]}
+{"id":"simple_python_372","result":[{"whole_foods_find_top_brands":"{\"number\":5,\"organic\":true,\"product\":\"bananas\"}"}]}
+{"id":"simple_python_373","result":[{"walmart_purchase":"{\"loc\":\"San Jose, CA\",\"pack_size\":[1,1,12],\"product_list\":[\"apples\",\"rice\",\"bottled water 12 pack\"]}"}]}
+{"id":"simple_python_374","result":[{"grocery_info_nutritional_info":"{\"food\":\"avocado\",\"information\":[\"Protein\",\"Calories\",\"Carbohydrates\"],\"store\":\"Walmart\"}"}]}
+{"id":"simple_python_375","result":[{"walmart_check_price":"{\"items\":[\"pumpkins\",\"eggs\"],\"quantities\":[3,24],\"store_location\":\"Walmart\"}"}]}
+{"id":"simple_python_376","result":[{"time_zone_converter":"{\"city\":\"London\",\"country\":\"United Kingdom\",\"display_format\":\"24h\"}"}]}
+{"id":"simple_python_377","result":[{"get_current_time":"{\"city\":\"Sydney\",\"country\":\"Australia\",\"format\":\"HH:MM:SS\"}"}]}
+{"id":"simple_python_378","result":"London time would be 8:00 PM (20:00) on the same day.\n\nReason: Eastern Time (NY) is always 5 hours behind London (ET is UTC-5 or UTC-4; London is UTC+0 or UTC+1). So 3:00 PM in New York + 5 hours = 8:00 PM in London. If you have a specific date, I can confirm with exact DST details for that day."}
+{"id":"simple_python_379","result":[{"get_current_time":"{\"country\":\"Australia\",\"location\":\"Sydney\",\"timezone\":\"Australia/Sydney\"}"}]}
+{"id":"simple_python_380","result":"Thanks for the details. Quick check before I book:\n\n- The start date you gave (March 10, 2023) is in the past. Please provide a future start date (e.g., March 10, 2025).\n- Do you want the location set to Manhattan, New York specifically, or should I search for hotels that are near Manhattan (in nearby areas as well)?\n\nOnce you confirm a future start date and the exact location preference, I’ll proceed with booking a single room that is pet-friendly for 3 nights."}
+{"id":"simple_python_381","result":"The dates you gave (April 4–8, 2023) are in the past, so I can’t check real-time availability for them.\n\nIf you’d like, I can check availability for a future window in Paris. For example:\n- April 4–8, 2027 (2 adults)\n- Or any other date range you prefer\n- I can search for all Hilton properties in Paris or focus on specific ones (e.g., Hilton Paris Opéra, Hilton Paris Charles de Gaulle Airport, Hilton Garden Inn Paris Etoile, etc.)\n\nPlease tell me:\n1) Which dates you want to check (or a range around them), and\n2) Whether you want all Hilton hotels in Paris checked or just a few preferred ones."}
+{"id":"simple_python_382","result":[{"book_hotel":"{\"hotel_name\":\"Hilton Hotel\",\"location\":\"Chicago\",\"nights\":2,\"room_type\":\"single room\",\"start_date\":\"2022-12-10\"}"}]}
+{"id":"simple_python_383","result":[{"book_room":"{\"hotel_name\":\"The Plaza\",\"num_nights\":2,\"room_type\":\"single\"}"}]}
+{"id":"simple_python_384","result":[{"hotel_booking_book":"{\"adults\": 2, \"children\": 1, \"city\": \"Paris, France\", \"from_date\": \"07-10-2022\", \"room_type\": \"Standard\", \"to_date\": \"07-20-2022\"}"}]}
+{"id":"simple_python_385","result":[{"hotel_bookings_book_room":"{\"check_in_date\":\"15-10-2023\",\"location\":\"Los Angeles, CA\",\"no_of_nights\":2,\"no_of_rooms\":1,\"room_type\":\"king size bed\"}"}]}
+{"id":"simple_python_386","result":"The requested start date (May 12, 2022) is in the past. Please provide a future start date for your stay.\n\nDetails to confirm:\n- Hotel: Hotel Paradise\n- Location: Las Vegas\n- Room type: Luxury room\n- Start date: MM-DD-YYYY (must be in the future)\n- Stay duration: 3 days\n- View: City view\n\nIf you tell me a new start date (e.g., 05-12-2025) and any additional preferences (bed type, non-smoking, special requests), I’ll proceed with the booking."}
+{"id":"simple_python_387","result":"The dates you gave (June 1–4, 2022) are in the past. I can book for a future date instead. Would you like me to proceed with a future booking, for example:\n\n- The Plaza Hotel, New York, NY\n- 1 room\n- 3 nights\n- Start date: June 1, 2027 (or another date you prefer)\n\nIf you want, tell me:\n- Exact start date (in YYYY-MM-DD)\n- Number of rooms\n- Number of guests per room\n- Bed preference (king/queen)\n- Any special requests (non-smoking, high floor, view, accessibility, etc.)\n- Any flexibility in dates\n\nI can then place the booking."}
+{"id":"simple_python_388","result":[{"currency_exchange_convert":"{\"amount\":500,\"base_currency\":\"USD\",\"target_currency\":\"CAD\"}"}]}
+{"id":"simple_python_389","result":[{"currency_converter":"{\"amount\":200,\"base_currency\":\"USD\",\"target_currency\":\"GBP\"}"}]}
+{"id":"simple_python_390","result":[{"currency_conversion_convert":"{\"amount\":150,\"from_currency\":\"EUR\",\"to_currency\":\"CAD\"}"}]}
+{"id":"simple_python_391","result":[{"get_exchange_rate_with_fee":"{\"base_currency\":\"GBP\",\"fee\":0.02,\"target_currency\":\"JPY\"}"}]}
+{"id":"simple_python_392","result":[{"latest_exchange_rate":"{\"amount\": 1, \"source_currency\": \"GBP\", \"target_currency\": \"JPY\"}"}]}
+{"id":"simple_python_393","result":[{"convert_currency":"{\"amount\":20000,\"base_currency\":\"JPY\",\"target_currency\":\"USD\"}"}]}
+{"id":"simple_python_394","result":[{"maps_get_distance_duration":"{\"end_location\":\"Louvre Museum\",\"start_location\":\"Eiffel Tower\",\"traffic\":false}"}]}
+{"id":"simple_python_395","result":[{"parking_lot_find_nearest":"{\"location\":\"Central Park, New York\",\"radius\":2,\"type\":\"public\"}"}]}
+{"id":"simple_python_396","result":[{"hospital_locate":"{\"department\":\"Pediatrics\",\"location\":\"Denver, CO\",\"radius\":5}"}]}
+{"id":"simple_python_397","result":[{"distance_calculator_calculate":"{\"consider_terrain\": true, \"destination\": \"Boston\", \"origin\": \"New York\"}"}]}
+{"id":"simple_python_398","result":[{"get_museum_hours":"{\"day\":\"Saturday\",\"museum_name\":\"Metropolitan Museum of Art\"}"}]}
+{"id":"simple_python_399","result":[{"restaurant_search":"{\"accepts_credit_cards\": true, \"cuisine\": \"Italian\", \"location\": \"New York City, NY\", \"rating\": 4}"}]}

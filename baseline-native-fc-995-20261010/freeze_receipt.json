@@ -1,0 +1,26 @@
+{
+  "status": "public projection of original hash-bound run receipts; created after the run",
+  "request_configuration_frozen_utc": "2026-10-10T10:59:36.511055+00:00",
+  "whole_answer_sheet_locked_utc": "2026-10-10T11:13:32.917298+00:00",
+  "first_scoring_attempt_utc": "2026-10-10T11:13:46.827729+00:00",
+  "successful_scoring_started_utc": "2026-10-10T11:17:24.665348+00:00",
+  "scoring_finished_utc": "2026-10-10T11:17:24.987246+00:00",
+  "rows": 1390,
+  "original_answer_sheet_sha256": "4d27e611d132292d59e8121273d99ca0dc8a05b883ff5a2c4d55dd4b49fd3862",
+  "original_private_FREEZE_sha256": "5944ef9036567a98d93f59873cd3d86ce13a4dafbac37e6055593f87b886e9dd",
+  "original_private_FINAL_LOCK_sha256": "7d420a3c482ba50a73f199135485d18796c267cb9ad8ed6724cc5c0059f5f04d",
+  "original_private_RESULT_sha256": "863e76750b9139244d5911a5ac920b1d6f6ddd8c92ac47afebb8b960dae59852",
+  "original_private_COMPLETION_AUDIT_sha256": "b34bfbbd05c49d56023310d7982b107067dff632c296f458d12dbbd355e5a4a3",
+  "all_rows_locked_before_whole_sheet_lock": true,
+  "all_answers_locked_before_gold_acquisition_and_grading": true,
+  "no_gold_or_scorer_generation_read_paths": true,
+  "old_outputs_reused": false,
+  "output_repairs": false,
+  "reported_aggregate_score": {
+    "correct": 995,
+    "cases": 1390,
+    "accuracy_pct": 71.58273381294964
+  },
+  "per_case_gold_or_grade_included": false,
+  "verification_performed_without_model_calls": true
+}

@@ -1,0 +1,65 @@
+{
+  "status": "source-derived public execution configuration; not a verbatim private contract export",
+  "run_id": "bfcl1390-baseline-official-default-20261010",
+  "model": "gpt-5-nano-2025-08-07",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "mode": "native FC",
+  "bfcl_eval_version": "2025.12.17",
+  "official_commit": "f7cf7359b7ac615a0b294831c5ba2bc95ee4a000",
+  "rows": 1390,
+  "official_default_language_preprocessing": true,
+  "actual_official_single_turn_request_constructor_used": true,
+  "request_settings": {
+    "model": "gpt-5-nano-2025-08-07",
+    "store": false,
+    "include": [
+      "reasoning.encrypted_content"
+    ],
+    "reasoning": {
+      "summary": "auto"
+    }
+  },
+  "not_sent_request_fields": [
+    "reasoning.effort",
+    "temperature",
+    "top_p",
+    "tool_choice",
+    "parallel_tool_calls",
+    "max_output_tokens",
+    "seed"
+  ],
+  "message_roles": [
+    "user"
+  ],
+  "custom_system_or_developer_prompt": false,
+  "RCC_injected": false,
+  "output_repairs": false,
+  "external_functions_executed": false,
+  "provider_reported_settings": [
+    {
+      "settings": {
+        "max_output_tokens": null,
+        "parallel_tool_calls": true,
+        "reasoning_effort_reported": "medium",
+        "temperature": 1.0,
+        "tool_choice": "auto",
+        "top_p": 1.0,
+        "truncation": "disabled"
+      },
+      "rows": 1390
+    }
+  ],
+  "retry_policy": "transport/429/5xx only; no answer-quality retry",
+  "actual_provider_attempts": 1390,
+  "completed_response_count": 1390,
+  "proof_mode": "new_gold_blind_baseline_generation_on_previously_developed_cohort",
+  "fresh_heldout": false,
+  "scorer_source_hashes": {
+    "registry_source_sha256": "08f9a3dd16a6c8e9f6aec47d6f4ee19e062642c7fe74af71ea9032ba9af4354b",
+    "registry_projection": "Exact official two nano AST entries; unrelated provider imports omitted",
+    "checker_source_sha256": "2aae7a68461a8f76c0be3894c8901b66b56967a1989d3ab066051e3fb97f1538",
+    "handler_source_sha256": "57369acb498789168d61fc94574a814a2b79fddafe75f2a47650872150d476e3",
+    "scoring_functions_modified": false
+  },
+  "source_private_FREEZE_sha256": "5944ef9036567a98d93f59873cd3d86ce13a4dafbac37e6055593f87b886e9dd"
+}

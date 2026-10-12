@@ -1,0 +1,48 @@
+{
+  "upstream_repository": "ShishirPatil/gorilla",
+  "official_commit": "f7cf7359b7ac615a0b294831c5ba2bc95ee4a000",
+  "category_counts": {
+    "irrelevance": 240,
+    "multiple": 200,
+    "parallel_multiple": 200,
+    "parallel": 200,
+    "simple_java": 100,
+    "simple_javascript": 50,
+    "simple_python": 400
+  },
+  "original_case_ids_count": 1390,
+  "case_ids_sha256": "4baf2150174ef3343c32b2fe113f2f4466c18d5b3c4fef2bae99ffdb3cdf217c",
+  "original_raw_inputs_sha256": "265c9f3c325594a997b84469059f56acf70a35acf77fce7eb30265cf0335b960",
+  "prepared_inputs_sha256": "07def8aced7614734b3fe87e8277378e67d0f54a26dacbb300f4981874e403d9",
+  "hash_definition": "Per-input hashes: UTF-8 Python json.dumps(input, sort_keys=True), default ensure_ascii=True and separators. File hashes cover exact file bytes.",
+  "original_frozen_dataset_files": {
+    "BFCL_v4_irrelevance.json": {
+      "sha256": "2b6ed4c2e992cdcf5f1678a701851f944bef7550ee026ed1ddb89efed5be01a6",
+      "rows": 240
+    },
+    "BFCL_v4_multiple.json": {
+      "sha256": "aef168155ebd74b7ac2401198b201343bc7d16d7a3d7e0d4e6d8ee82c6969b2a",
+      "rows": 200
+    },
+    "BFCL_v4_parallel.json": {
+      "sha256": "19f51a82eff42e5d62541aa500115a056eb78f437c2ba1f10415fd7c8e5dda84",
+      "rows": 200
+    },
+    "BFCL_v4_parallel_multiple.json": {
+      "sha256": "8863ea8433239f55c5f016154cf0830853c89f693c6ea270396a2fa121960579",
+      "rows": 200
+    },
+    "BFCL_v4_simple_java.json": {
+      "sha256": "13d2303a125b08754f0e41995b9273b5005fa8ed8ebfaa24ef53b4d83c4b5c6e",
+      "rows": 100
+    },
+    "BFCL_v4_simple_javascript.json": {
+      "sha256": "329e67fedf79a6243d93dbda4b388d12bd2d31f1f2163d92cb6ef676d1764f44",
+      "rows": 50
+    },
+    "BFCL_v4_simple_python.json": {
+      "sha256": "82dd63ba502eb2520c6b5d1d9a5c4b590e03ff261565175561f6228a367d1991",
+      "rows": 400
+    }
+  }
+}

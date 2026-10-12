@@ -1,3 +1,23 @@
+# Current handoff to Kiel — shared native-FC 995 baseline
+
+The latest request is covered by the [baseline-native-fc-995-20261010](baseline-native-fc-995-20261010/) packet:
+
+1. [Original file actually graded](baseline-native-fc-995-20261010/locked_outputs.jsonl): 1,390 unchanged raw outputs, not just scores.
+2. [Case-level input/output pairs](baseline-native-fc-995-20261010/input_output_pairs.jsonl), [actual as-sent requests](baseline-native-fc-995-20261010/requests.jsonl), [raw inputs](baseline-native-fc-995-20261010/raw_inputs.jsonl), [prepared inputs](baseline-native-fc-995-20261010/prepared_inputs.jsonl) and [execution configuration](baseline-native-fc-995-20261010/execution_config.json).
+3. [Written case-set confirmation](baseline-native-fc-995-20261010/FROZEN_CASE_SET.md), [case IDs](baseline-native-fc-995-20261010/case_ids.txt), [case/hash manifest](baseline-native-fc-995-20261010/case_manifest.jsonl) and [BFCL snapshot hashes](baseline-native-fc-995-20261010/dataset_manifest.json).
+4. [Lossless BFCL id/result projection](baseline-native-fc-995-20261010/bfcl_outputs.jsonl), [format contract](baseline-native-fc-995-20261010/INPUT_CONTRACT.md), [visible provider outputs](baseline-native-fc-995-20261010/provider_outputs.jsonl), [usage/latency](baseline-native-fc-995-20261010/usage_latency.jsonl) and [pre-grading lock receipt](baseline-native-fc-995-20261010/freeze_receipt.json).
+5. [Download the complete public data/document ZIP](baseline-native-fc-995-20261010/KIEL_NATIVE_FC_995_HANDOFF.zip?raw=true) and [checksums](baseline-native-fc-995-20261010/SHA256SUMS.txt).
+
+Use this exact frozen sheet for ARM-B; do not regenerate model answers. The raw answers contain 996 call-list outputs and 394 preserved text/no-call strings. The input contract explains these without altering them.
+
+Kiel confirmed on October 10 that his 1,085/1,390 run used Prompt mode. On October 11 he agreed to the native-FC 995/1,390 sheet as the shared baseline. The old mode questions below are historical and superseded; no need to ask them again. Private logic, credentials and hidden reasoning are excluded from the new packet.
+
+No ARM-A result against the 995 sheet is included. The existing ARM-A interface evidence below remains available as a separate earlier run for interface inspection, not a matched current four-arm comparison.
+
+---
+
+## Historical ARM-A handoff — earlier 961 baseline (mode questions superseded)
+
 # Kiel handoff — ARM-A function-calling evidence
 
 Current ARM-A: **961 → 1,007 / 1,390; 46 improvements, zero regressions**.

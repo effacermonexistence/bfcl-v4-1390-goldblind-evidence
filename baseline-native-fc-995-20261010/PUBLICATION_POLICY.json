@@ -1,0 +1,16 @@
+{
+  "primary_locked_answer_sheet": "byte-identical to the original file graded in the 995 run",
+  "visible_provider_outputs": "source-faithful redacted derivatives; visible function_call/message objects unaltered",
+  "private_raw_response_originals": "preserved privately; not byte-original API exports in this public packet",
+  "withheld": [
+    "reasoning items/content/summaries/encrypted payloads",
+    "account/access/billing/safety metadata",
+    "authentication headers/keys/caches",
+    "proprietary RCC/REVAS and Evolve Edge code/prompts/routes/verifier traces",
+    "gold/reference answers and case-level grades/correctness masks",
+    "private logs, local paths, and correspondence"
+  ],
+  "reasoning_items_withheld": 1390,
+  "source_raw_sha256_per_case": true,
+  "new_model_calls_for_handoff": 0
+}

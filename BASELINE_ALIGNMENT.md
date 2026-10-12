@@ -1,3 +1,17 @@
+# Confirmed execution-mode alignment — October 12 handoff
+
+- Kiel explicitly confirmed on October 10 that his October 8 1,085/1,390 baseline used **Prompt mode**, not native FC.
+- The new local **995/1,390 (71.58%)** baseline used **Responses API native FC with official default language preprocessing**. It is distinct from the earlier 961 sheet.
+- Kiel's October 11 reply agreed to use the frozen 995 native-FC sheet as the common foundation. This removes the execution-mode variable for the proposed new comparison; ARM-B must consume the same outputs rather than call the model again.
+- [Exact outputs](baseline-native-fc-995-20261010/locked_outputs.jsonl), [paired inputs/outputs](baseline-native-fc-995-20261010/input_output_pairs.jsonl), [configuration](baseline-native-fc-995-20261010/execution_config.json) and [written ID/snapshot lock](baseline-native-fc-995-20261010/FROZEN_CASE_SET.md) are now supplied.
+- A shared-mode agreement is not an already executed shared-baseline ARM-B/ARM-C result. Those outputs must be produced by their respective agreed arms.
+
+The following earlier analysis is retained as historical context. Its provisional mode hypothesis and requests for mode confirmation are superseded by Kiel's explicit reply.
+
+---
+
+## Historical provisional matching note — earlier 961 baseline
+
 # Baseline difference and matching plan
 
 ## Established facts

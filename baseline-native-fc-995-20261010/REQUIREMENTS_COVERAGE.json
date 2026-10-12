@@ -1,0 +1,49 @@
+{
+  "request_source": "Kiel latest BFCL correspondence, Oct11 2026; no private email record published",
+  "requirements": [
+    {
+      "request": "Frozen raw answer sheet in the format graded; outputs rather than scores",
+      "files": [
+        "locked_outputs.jsonl",
+        "input_output_pairs.jsonl",
+        "INPUT_CONTRACT.md"
+      ],
+      "status": "COVERED"
+    },
+    {
+      "request": "Standard BFCL output-format compatibility",
+      "files": [
+        "bfcl_outputs.jsonl",
+        "bfcl_results/"
+      ],
+      "status": "LOSSLESS id/result PROJECTION; no model regeneration"
+    },
+    {
+      "request": "Written confirmation of 1,390 case IDs or BFCL snapshot hash",
+      "files": [
+        "FROZEN_CASE_SET.md",
+        "case_ids.txt",
+        "case_manifest.jsonl",
+        "dataset_manifest.json"
+      ],
+      "status": "COVERED"
+    },
+    {
+      "request": "Execution input/output/config artifacts",
+      "files": [
+        "requests.jsonl",
+        "raw_inputs.jsonl",
+        "prepared_inputs.jsonl",
+        "provider_outputs.jsonl",
+        "usage_latency.jsonl",
+        "execution_config.json",
+        "freeze_receipt.json"
+      ],
+      "status": "COVERED; hidden reasoning/credentials/IP excluded"
+    }
+  ],
+  "new_model_calls": 0,
+  "ARM_B_execution_on_this_sheet": "not yet performed by this handoff; recipient runs its own layer",
+  "existing_961_artifacts_preserved": true,
+  "ARM_A_on_this_995_sheet": "not performed; prior ARM-A evidence is separate"
+}
